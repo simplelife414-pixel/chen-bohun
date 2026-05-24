@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>陳柏宏 移工仲介 | 農業・看護・製造業</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600;700&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --green-dark: #1a4a2e;
+    --green-mid: #2d7a4f;
+    --green-light: #4aad6f;
+    --green-pale: #e8f5ee;
+    --green-accent: #7ec99a;
+    --gold: #c9a53a;
+    --gold-light: #f0d987;
+    --warm-white: #fdfaf5;
+    --off-white: #f5f0e8;
+    --text-dark: #1c1c1c;
+    --text-mid: #444444;
+    --text-light: #777777;
+    --line-green: #06c755;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Noto Sans TC', sans-serif;
+    background: var(--warm-white);
+    color: var(--text-dark);
+    overflow-x: hidden;
+  }
+
+  /* ── NAVBAR ── */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    background: rgba(26, 74, 46, 0.97);
+    backdrop-filter: blur(8px);
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0 6vw;
+    height: 64px;
+    box-shadow: 0 2px 20px rgba(0,0,0,0.25);
+  }
+  .nav-logo {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 1.15rem; font-weight: 700;
+    color: var(--gold-light);
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+  }
+  .nav-logo span { color: #fff; font-weight: 400; }
+  .nav-links { display: flex; gap: 2rem; list-style: none; }
+  .nav-links a {
+    color: rgba(255,255,255,0.85);
+    text-decoration: none; font-size: 0.875rem; letter-spacing: 0.03em;
+    transition: color 0.2s;
+  }
+  .nav-links a:hover { color: var(--gold-light); }
+  .nav-line-btn {
+    background: var(--line-green);
+    color: #fff; border: none; border-radius: 24px;
+    padding: 8px 18px; font-size: 0.82rem; font-weight: 700;
+    cursor: pointer; display: flex; align-items: center; gap: 7px;
+    text-decoration: none;
+    transition: opacity 0.2s, transform 0.15s;
+    white-space: nowrap;
+  }
+  .nav-line-btn:hover { opacity: 0.9; transform: scale(1.03); }
+
+  /* ── HERO ── */
+  .hero {
+    min-height: 100vh;
+    background:
+      linear-gradient(160deg, rgba(26,74,46,0.92) 0%, rgba(20,50,32,0.97) 55%, rgba(10,28,18,0.98) 100%),
+      url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%234aad6f' fill-opacity='0.08'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    display: flex; align-items: center;
+    padding: 100px 6vw 60px;
+    position: relative; overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute; bottom: 0; left: 0; right: 0; height: 120px;
+    background: linear-gradient(to top, var(--warm-white), transparent);
+  }
+  .hero-content { max-width: 650px; position: relative; z-index: 2; }
+  .hero-badge {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: rgba(201,165,58,0.2);
+    border: 1px solid rgba(201,165,58,0.4);
+    color: var(--gold-light);
+    font-size: 0.78rem; letter-spacing: 0.1em; font-weight: 500;
+    padding: 6px 14px; border-radius: 20px;
+    margin-bottom: 1.5rem;
+  }
+  .hero h1 {
+    font-family: 'Noto Serif TC', serif;
+    font-size: clamp(2.2rem, 5vw, 3.5rem);
+    font-weight: 700; color: #fff; line-height: 1.25;
+    margin-bottom: 1.2rem;
+    letter-spacing: 0.02em;
+  }
+  .hero h1 em { color: var(--green-accent); font-style: normal; }
+  .hero-sub {
+    font-size: 1.05rem; color: rgba(255,255,255,0.72);
+    line-height: 1.8; margin-bottom: 2.5rem;
+    font-weight: 300;
+  }
+  .hero-btns { display: flex; gap: 1rem; flex-wrap: wrap; }
+  .btn-primary {
+    background: var(--gold);
+    color: var(--green-dark); border: none;
+    padding: 14px 28px; border-radius: 4px;
+    font-size: 0.95rem; font-weight: 700;
+    cursor: pointer; text-decoration: none;
+    transition: background 0.2s, transform 0.15s;
+    letter-spacing: 0.04em;
+  }
+  .btn-primary:hover { background: var(--gold-light); transform: translateY(-2px); }
+  .btn-outline {
+    background: transparent;
+    color: #fff; border: 1.5px solid rgba(255,255,255,0.5);
+    padding: 13px 28px; border-radius: 4px;
+    font-size: 0.95rem; cursor: pointer; text-decoration: none;
+    transition: border-color 0.2s, background 0.2s;
+    letter-spacing: 0.04em;
+  }
+  .btn-outline:hover { border-color: var(--green-accent); background: rgba(74,173,111,0.1); }
+
+  /* hero stats */
+  .hero-stats {
+    display: flex; gap: 2.5rem; margin-top: 3.5rem; flex-wrap: wrap;
+  }
+  .stat-item { color: rgba(255,255,255,0.85); }
+  .stat-num {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 1.8rem; font-weight: 700;
+    color: var(--gold-light); display: block;
+  }
+  .stat-label { font-size: 0.78rem; color: rgba(255,255,255,0.55); letter-spacing: 0.05em; }
+
+  /* ── SECTION COMMON ── */
+  section { padding: 80px 6vw; }
+  .section-tag {
+    display: inline-block;
+    font-size: 0.72rem; letter-spacing: 0.15em; font-weight: 700;
+    color: var(--green-mid); text-transform: uppercase;
+    margin-bottom: 0.7rem;
+  }
+  .section-title {
+    font-family: 'Noto Serif TC', serif;
+    font-size: clamp(1.6rem, 3vw, 2.2rem);
+    font-weight: 700; color: var(--green-dark);
+    line-height: 1.35; margin-bottom: 0.8rem;
+  }
+  .section-sub {
+    font-size: 0.95rem; color: var(--text-light);
+    line-height: 1.8; max-width: 520px;
+  }
+
+  /* ── SERVICES ── */
+  .services { background: var(--off-white); }
+  .services-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem; margin-top: 3rem;
+  }
+  .service-card {
+    background: #fff;
+    border: 1px solid #e0ddd6;
+    border-radius: 8px;
+    padding: 2rem 1.8rem;
+    transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+    position: relative; overflow: hidden;
+  }
+  .service-card::before {
+    content: ''; position: absolute; top: 0; left: 0; right: 0; height: 4px;
+    background: var(--green-mid);
+  }
+  .service-card:hover { transform: translateY(-4px); box-shadow: 0 12px 32px rgba(26,74,46,0.12); border-color: var(--green-light); }
+  .service-icon {
+    width: 52px; height: 52px; border-radius: 8px;
+    background: var(--green-pale);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.6rem; margin-bottom: 1.2rem;
+  }
+  .service-card h3 { font-size: 1.1rem; font-weight: 700; color: var(--green-dark); margin-bottom: 0.6rem; }
+  .service-card p { font-size: 0.875rem; color: var(--text-light); line-height: 1.75; }
+  .service-tags { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 1rem; }
+  .tag {
+    font-size: 0.72rem; padding: 3px 10px; border-radius: 12px;
+    background: var(--green-pale); color: var(--green-mid); font-weight: 500;
+  }
+
+  /* ── KNOWLEDGE / ARTICLES ── */
+  .knowledge { background: var(--warm-white); }
+  .articles-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem; margin-top: 3rem;
+  }
+  .article-card {
+    background: #fff; border: 1px solid #e0ddd6; border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+  }
+  .article-card:hover { transform: translateY(-3px); box-shadow: 0 10px 28px rgba(0,0,0,0.1); }
+  .article-banner {
+    height: 8px;
+    background: linear-gradient(90deg, var(--green-mid), var(--green-light));
+  }
+  .article-body { padding: 1.5rem; }
+  .article-cat {
+    font-size: 0.7rem; letter-spacing: 0.1em; font-weight: 700;
+    color: var(--green-mid); margin-bottom: 0.5rem;
+  }
+  .article-card h4 {
+    font-size: 1rem; font-weight: 700; color: var(--text-dark);
+    line-height: 1.5; margin-bottom: 0.6rem;
+  }
+  .article-card p { font-size: 0.83rem; color: var(--text-light); line-height: 1.7; }
+  .article-meta {
+    margin-top: 1rem; padding-top: 0.8rem;
+    border-top: 1px solid #eee;
+    font-size: 0.75rem; color: var(--text-light);
+    display: flex; align-items: center; gap: 0.5rem;
+  }
+
+  /* ── BOOKING ── */
+  .booking { background: var(--green-dark); }
+  .booking .section-tag { color: var(--green-accent); }
+  .booking .section-title { color: #fff; }
+  .booking .section-sub { color: rgba(255,255,255,0.65); max-width: 620px; }
+  .booking-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; margin-top: 3rem; align-items: start; }
+  @media (max-width: 760px) { .booking-layout { grid-template-columns: 1fr; } }
+
+  .booking-form {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 10px; padding: 2rem;
+  }
+  .form-row { margin-bottom: 1.2rem; }
+  .form-row label {
+    display: block; font-size: 0.82rem; color: rgba(255,255,255,0.65);
+    margin-bottom: 0.4rem; font-weight: 500;
+  }
+  .form-row input, .form-row select, .form-row textarea {
+    width: 100%; padding: 10px 14px;
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.18);
+    border-radius: 5px; color: #fff;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 0.9rem;
+    transition: border-color 0.2s;
+  }
+  .form-row input:focus, .form-row select:focus, .form-row textarea:focus {
+    outline: none; border-color: var(--green-accent);
+  }
+  .form-row select option { background: var(--green-dark); }
+  .form-row textarea { resize: vertical; min-height: 90px; }
+  .submit-btn {
+    width: 100%; padding: 13px;
+    background: var(--gold);
+    color: var(--green-dark); border: none;
+    border-radius: 5px; font-weight: 700; font-size: 1rem;
+    cursor: pointer; letter-spacing: 0.05em;
+    transition: background 0.2s;
+  }
+  .submit-btn:hover { background: var(--gold-light); }
+
+  /* booking info cards */
+  .booking-info { display: flex; flex-direction: column; gap: 1.2rem; }
+  .info-card {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 8px; padding: 1.4rem 1.5rem;
+    display: flex; gap: 1rem; align-items: flex-start;
+  }
+  .info-icon {
+    width: 40px; height: 40px; flex-shrink: 0;
+    background: rgba(74,173,111,0.2); border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.2rem;
+  }
+  .info-card h5 { font-size: 0.9rem; font-weight: 700; color: var(--green-accent); margin-bottom: 0.3rem; }
+  .info-card p { font-size: 0.82rem; color: rgba(255,255,255,0.6); line-height: 1.65; }
+
+  /* LINE big CTA */
+  .line-cta {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(6,199,85,0.3);
+    border-radius: 10px; padding: 1.8rem;
+    text-align: center; margin-top: 1rem;
+  }
+  .line-cta p { color: rgba(255,255,255,0.65); font-size: 0.85rem; margin-bottom: 1rem; }
+  .line-big-btn {
+    display: inline-flex; align-items: center; gap: 10px;
+    background: var(--line-green); color: #fff;
+    text-decoration: none; padding: 13px 28px;
+    border-radius: 6px; font-weight: 700; font-size: 1.05rem;
+    transition: opacity 0.2s, transform 0.15s;
+    letter-spacing: 0.03em;
+  }
+  .line-big-btn:hover { opacity: 0.9; transform: scale(1.03); }
+  .line-logo {
+    width: 26px; height: 26px; background: #fff; border-radius: 6px;
+    display: inline-flex; align-items: center; justify-content: center;
+  }
+
+  /* ── PROCESS ── */
+  .process { background: var(--off-white); }
+  .process-steps {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 0; margin-top: 3rem; position: relative;
+  }
+  .process-steps::before {
+    content: ''; position: absolute;
+    top: 28px; left: 14%; right: 14%; height: 2px;
+    background: linear-gradient(90deg, var(--green-light), var(--green-pale));
+  }
+  .step { text-align: center; padding: 0 1rem; position: relative; z-index: 1; }
+  .step-num {
+    width: 56px; height: 56px; border-radius: 50%;
+    background: var(--green-mid); color: #fff;
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Noto Serif TC', serif;
+    font-size: 1.2rem; font-weight: 700;
+    margin: 0 auto 1rem;
+    box-shadow: 0 4px 14px rgba(45,122,79,0.4);
+  }
+  .step h4 { font-size: 0.9rem; font-weight: 700; color: var(--green-dark); margin-bottom: 0.4rem; }
+  .step p { font-size: 0.78rem; color: var(--text-light); line-height: 1.65; }
+
+  /* ── CONTACT STRIP ── */
+  .contact-strip {
+    background: #fff; border-top: 1px solid #e0ddd6; border-bottom: 1px solid #e0ddd6;
+    padding: 48px 6vw;
+    display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 2rem;
+  }
+  .contact-strip h3 {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 1.3rem; color: var(--green-dark); font-weight: 700;
+  }
+  .contact-strip p { font-size: 0.9rem; color: var(--text-light); margin-top: 0.3rem; }
+  .contact-btns { display: flex; gap: 1rem; align-items: center; }
+
+  /* ── FOOTER ── */
+  footer {
+    background: #111810; padding: 48px 6vw 32px;
+    color: rgba(255,255,255,0.5);
+  }
+  .footer-grid {
+    display: grid; grid-template-columns: 2fr 1fr 1fr;
+    gap: 3rem; margin-bottom: 2.5rem;
+  }
+  @media (max-width: 680px) { .footer-grid { grid-template-columns: 1fr; } }
+  .footer-brand {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 1.1rem; font-weight: 700;
+    color: var(--gold-light); margin-bottom: 0.8rem;
+  }
+  .footer-desc { font-size: 0.82rem; line-height: 1.8; }
+  .footer-col h6 { font-size: 0.8rem; font-weight: 700; color: rgba(255,255,255,0.8); margin-bottom: 0.8rem; letter-spacing: 0.08em; }
+  .footer-col ul { list-style: none; }
+  .footer-col li { margin-bottom: 0.5rem; font-size: 0.8rem; }
+  .footer-col a { color: rgba(255,255,255,0.45); text-decoration: none; transition: color 0.2s; }
+  .footer-col a:hover { color: var(--green-accent); }
+  .footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.08);
+    padding-top: 1.5rem; font-size: 0.75rem;
+    display: flex; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem;
+  }
+
+  /* ── FLOATING LINE ── */
+  .float-line {
+    position: fixed; bottom: 28px; right: 28px; z-index: 200;
+    background: var(--line-green);
+    width: 60px; height: 60px; border-radius: 50%;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    box-shadow: 0 4px 20px rgba(6,199,85,0.5);
+    text-decoration: none; cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .float-line:hover { transform: scale(1.1); box-shadow: 0 6px 28px rgba(6,199,85,0.65); }
+  .float-line-label {
+    font-size: 0.55rem; color: #fff; font-weight: 700; letter-spacing: 0.05em; margin-top: 1px;
+  }
+
+  /* LINE SVG icon */
+  .line-svg { display: flex; }
+
+  /* Responsive nav */
+  @media (max-width: 680px) {
+    .nav-links { display: none; }
+    .hero-stats { gap: 1.5rem; }
+    .process-steps::before { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <div class="nav-logo">陳柏宏 <span>移工仲介服務</span></div>
+  <ul class="nav-links">
+    <li><a href="#services">服務項目</a></li>
+    <li><a href="#knowledge">知識專欄</a></li>
+    <li><a href="#booking">預約諮詢</a></li>
+    <li><a href="#process">辦理流程</a></li>
+  </ul>
+  <a href="https://line.me/ti/p/~your-line-id" class="nav-line-btn" target="_blank">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M24 10.304C24 4.613 18.627 0 12 0S0 4.613 0 10.304c0 5.099 4.523 9.368 10.632 10.177.414.089.978.273 1.12.627.129.323.084.828.041 1.154l-.181 1.086c-.055.323-.256 1.263 1.107.688 1.362-.574 7.346-4.326 10.02-7.409C23.07 14.618 24 12.57 24 10.304z"/></svg>
+    LINE 立即諮詢
+  </a>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-content">
+    <div class="hero-badge">
+      ✦ 合法立案・專業仲介・親切服務
+    </div>
+    <h1>讓每一份工作<br>都找到<em>對的人</em></h1>
+    <p class="hero-sub">
+      專注農業外勞、看護工、製造業廠工引進，<br>
+      從申請到接機全程陪伴，讓您安心省力。
+    </p>
+    <div class="hero-btns">
+      <a href="#booking" class="btn-primary">立即預約諮詢</a>
+      <a href="#services" class="btn-outline">了解服務項目</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-item"><span class="stat-num">500+</span><span class="stat-label">成功媒合案件</span></div>
+      <div class="stat-item"><span class="stat-num">12年</span><span class="stat-label">仲介服務經驗</span></div>
+      <div class="stat-item"><span class="stat-num">98%</span><span class="stat-label">客戶滿意度</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <span class="section-tag">▸ 服務項目</span>
+  <h2 class="section-title">三大專業服務領域</h2>
+  <p class="section-sub">針對不同產業需求，提供量身規劃的移工引進方案，讓您安心合法用工。</p>
+  <div class="services-grid">
+
+    <div class="service-card">
+      <div class="service-icon">🌾</div>
+      <h3>農業外勞</h3>
+      <p>協助農場、果園、養殖業等引進東南亞移工，熟悉農業工作性質，配合季節性用工需求。</p>
+      <div class="service-tags">
+        <span class="tag">農場種植</span>
+        <span class="tag">果園採收</span>
+        <span class="tag">養殖水產</span>
+        <span class="tag">畜牧業</span>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon">🏥</div>
+      <h3>看護工</h3>
+      <p>為家庭引進專業照護移工，服務失能老人、殘障人士或病患，提供居家或機構看護配對服務。</p>
+      <div class="service-tags">
+        <span class="tag">居家看護</span>
+        <span class="tag">老人照護</span>
+        <span class="tag">病患照護</span>
+        <span class="tag">身障照顧</span>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon">🏭</div>
+      <h3>製造業廠工</h3>
+      <p>協助工廠、製造業引進穩定勞動力，提高生產效能，辦理各類製造業移工許可申請。</p>
+      <div class="service-tags">
+        <span class="tag">電子製造</span>
+        <span class="tag">機械加工</span>
+        <span class="tag">食品加工</span>
+        <span class="tag">紡織成衣</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="process" id="process">
+  <span class="section-tag">▸ 辦理流程</span>
+  <h2 class="section-title">透明清楚的六大步驟</h2>
+  <p class="section-sub">從初次諮詢到移工到職，全程專業陪伴，讓您掌握每個環節。</p>
+  <div class="process-steps">
+    <div class="step">
+      <div class="step-num">1</div>
+      <h4>免費諮詢</h4>
+      <p>了解需求、評估適合方案</p>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <h4>資格確認</h4>
+      <p>確認雇主申請資格與條件</p>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <h4>人才媒合</h4>
+      <p>選配合適國籍與背景人才</p>
+    </div>
+    <div class="step">
+      <div class="step-num">4</div>
+      <h4>文件申請</h4>
+      <p>代辦勞動部及移民署申請</p>
+    </div>
+    <div class="step">
+      <div class="step-num">5</div>
+      <h4>入境接機</h4>
+      <p>接送安置、辦理健檢</p>
+    </div>
+    <div class="step">
+      <div class="step-num">6</div>
+      <h4>到職後服務</h4>
+      <p>持續追蹤、溝通協調</p>
+    </div>
+  </div>
+</section>
+
+<!-- KNOWLEDGE -->
+<section class="knowledge" id="knowledge">
+  <span class="section-tag">▸ 知識專欄</span>
+  <h2 class="section-title">移工引進必知資訊</h2>
+  <p class="section-sub">整理最新政策法規與實務經驗，幫助雇主掌握正確資訊，安心合法用工。</p>
+  <div class="articles-grid">
+
+    <div class="article-card">
+      <div class="article-banner"></div>
+      <div class="article-body">
+        <div class="article-cat">▸ 農業外勞</div>
+        <h4>2024年農業移工申請資格完整說明</h4>
+        <p>農業引進外籍勞工需符合哪些條件？土地面積、雇主資格、作物類型一次搞清楚。</p>
+        <div class="article-meta">📅 2024年10月更新 &nbsp;·&nbsp; 閱讀時間 5分鐘</div>
+      </div>
+    </div>
+
+    <div class="article-card">
+      <div class="article-banner"></div>
+      <div class="article-body">
+        <div class="article-cat">▸ 看護工</div>
+        <h4>申請外籍看護工需要哪些證明文件？</h4>
+        <p>詳細列出被看護者的失能評估、醫療證明、雇主身份文件等必備資料，避免補件耽誤時程。</p>
+        <div class="article-meta">📅 2024年9月更新 &nbsp;·&nbsp; 閱讀時間 6分鐘</div>
+      </div>
+    </div>
+
+    <div class="article-card">
+      <div class="article-banner"></div>
+      <div class="article-body">
+        <div class="article-cat">▸ 法規政策</div>
+        <h4>移工薪資、假期、住宿規定最新整理</h4>
+        <p>雇主必知的勞動基準，包含基本薪資調整、休假制度、住宿費用上限等重要規定。</p>
+        <div class="article-meta">📅 2024年8月更新 &nbsp;·&nbsp; 閱讀時間 7分鐘</div>
+      </div>
+    </div>
+
+    <div class="article-card">
+      <div class="article-banner"></div>
+      <div class="article-body">
+        <div class="article-cat">▸ 廠工</div>
+        <h4>製造業移工名額申請流程與限制說明</h4>
+        <p>工廠規模、本勞比例、行業別限制，製造業雇主在引進移工前最需要了解的眉角。</p>
+        <div class="article-meta">📅 2024年7月更新 &nbsp;·&nbsp; 閱讀時間 5分鐘</div>
+      </div>
+    </div>
+
+    <div class="article-card">
+      <div class="article-banner"></div>
+      <div class="article-body">
+        <div class="article-cat">▸ 常見問題</div>
+        <h4>移工逃跑怎麼辦？雇主責任與通報程序</h4>
+        <p>遇到移工失聯不需慌張，正確的通報流程、雇主的法律責任與後續處理方式一次說明。</p>
+        <div class="article-meta">📅 2024年6月更新 &nbsp;·&nbsp; 閱讀時間 4分鐘</div>
+      </div>
+    </div>
+
+    <div class="article-card">
+      <div class="article-banner"></div>
+      <div class="article-body">
+        <div class="article-cat">▸ 跨國比較</div>
+        <h4>印尼、越南、菲律賓、泰國移工特性比較</h4>
+        <p>各國移工的文化背景、工作習性、溝通方式大不同，選對國籍讓合作更順暢。</p>
+        <div class="article-meta">📅 2024年5月更新 &nbsp;·&nbsp; 閱讀時間 8分鐘</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- BOOKING -->
+<section class="booking" id="booking">
+  <span class="section-tag">▸ 預約諮詢</span>
+  <h2 class="section-title">免費預約，專人服務</h2>
+  <p class="section-sub">填寫基本需求，陳柏宏將於一個工作天內主動聯繫您，提供最適合的方案建議。</p>
+
+  <div class="booking-layout">
+    <div class="booking-form">
+      <div class="form-row">
+        <label>您的姓名 *</label>
+        <input type="text" placeholder="請輸入姓名">
+      </div>
+      <div class="form-row">
+        <label>聯絡電話 *</label>
+        <input type="tel" placeholder="0912-345-678">
+      </div>
+      <div class="form-row">
+        <label>服務需求 *</label>
+        <select>
+          <option value="" disabled selected>請選擇服務類型</option>
+          <option>農業外勞引進</option>
+          <option>居家看護工</option>
+          <option>製造業廠工</option>
+          <option>其他諮詢</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <label>預計引進人數</label>
+        <select>
+          <option value="" disabled selected>請選擇</option>
+          <option>1人</option>
+          <option>2～3人</option>
+          <option>4～9人</option>
+          <option>10人以上</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <label>備註說明</label>
+        <textarea placeholder="請簡述您的需求或問題，例如：農場種類、被看護者狀況等..."></textarea>
+      </div>
+      <button class="submit-btn" onclick="alert('感謝您的預約！陳柏宏將於一個工作天內與您聯繫。')">
+        送出預約申請 →
+      </button>
+    </div>
+
+    <div class="booking-info">
+      <div class="info-card">
+        <div class="info-icon">📞</div>
+        <div>
+          <h5>電話諮詢</h5>
+          <p>0912-345-678<br>週一至週六 09:00–18:00</p>
+        </div>
+      </div>
+      <div class="info-card">
+        <div class="info-icon">📧</div>
+        <div>
+          <h5>Email 信箱</h5>
+          <p>bohung.chen@agency.com.tw<br>24小時接受詢問</p>
+        </div>
+      </div>
+      <div class="info-card">
+        <div class="info-icon">📍</div>
+        <div>
+          <h5>服務據點</h5>
+          <p>台中市西區民權路 XX 號<br>（提供到府諮詢服務）</p>
+        </div>
+      </div>
+
+      <div class="line-cta">
+        <p>加 LINE 最快速！直接傳訊問問題，隨時回覆</p>
+        <a href="https://line.me/ti/p/~your-line-id" class="line-big-btn" target="_blank">
+          <div class="line-logo">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="#06c755"><path d="M24 10.304C24 4.613 18.627 0 12 0S0 4.613 0 10.304c0 5.099 4.523 9.368 10.632 10.177.414.089.978.273 1.12.627.129.323.084.828.041 1.154l-.181 1.086c-.055.323-.256 1.263 1.107.688 1.362-.574 7.346-4.326 10.02-7.409C23.07 14.618 24 12.57 24 10.304z"/></svg>
+          </div>
+          加入 LINE 立即諮詢
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT STRIP -->
+<div class="contact-strip">
+  <div>
+    <h3>陳柏宏 移工仲介服務</h3>
+    <p>勞動部許可仲介機構 ｜ 許可字號：仲○字第XXXXXX號</p>
+  </div>
+  <div class="contact-btns">
+    <a href="tel:0912345678" class="btn-primary" style="text-decoration:none;">📞 立即致電</a>
+    <a href="https://line.me/ti/p/~your-line-id" class="nav-line-btn" style="padding:13px 22px;font-size:0.9rem;" target="_blank">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M24 10.304C24 4.613 18.627 0 12 0S0 4.613 0 10.304c0 5.099 4.523 9.368 10.632 10.177.414.089.978.273 1.12.627.129.323.084.828.041 1.154l-.181 1.086c-.055.323-.256 1.263 1.107.688 1.362-.574 7.346-4.326 10.02-7.409C23.07 14.618 24 12.57 24 10.304z"/></svg>
+      LINE 諮詢
+    </a>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <div class="footer-brand">陳柏宏 移工仲介服務</div>
+      <p class="footer-desc">深耕移工仲介服務超過十二年，專注農業外勞、看護工、製造業廠工引進，提供合法、透明、安心的一站式服務。</p>
+    </div>
+    <div class="footer-col">
+      <h6>快速連結</h6>
+      <ul>
+        <li><a href="#services">服務項目</a></li>
+        <li><a href="#process">辦理流程</a></li>
+        <li><a href="#knowledge">知識專欄</a></li>
+        <li><a href="#booking">預約諮詢</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h6>相關資源</h6>
+      <ul>
+        <li><a href="https://ezworktaiwan.wda.gov.tw" target="_blank">勞動力發展署</a></li>
+        <li><a href="https://www.immigration.gov.tw" target="_blank">移民署</a></li>
+        <li><a href="#">常見問題 Q&A</a></li>
+        <li><a href="#">費用說明</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2024 陳柏宏移工仲介服務 版權所有</span>
+    <span>勞動部許可仲介機構 ｜ 許可字號：仲○字第XXXXXX號</span>
+  </div>
+</footer>
+
+<!-- FLOATING LINE BUTTON -->
+<a href="https://line.me/ti/p/~your-line-id" class="float-line" target="_blank" title="LINE 諮詢">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="white">
+    <path d="M24 10.304C24 4.613 18.627 0 12 0S0 4.613 0 10.304c0 5.099 4.523 9.368 10.632 10.177.414.089.978.273 1.12.627.129.323.084.828.041 1.154l-.181 1.086c-.055.323-.256 1.263 1.107.688 1.362-.574 7.346-4.326 10.02-7.409C23.07 14.618 24 12.57 24 10.304z"/>
+  </svg>
+  <span class="float-line-label">LINE</span>
+</a>
+
+<script>
+  // Smooth scroll
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+      const target = document.querySelector(a.getAttribute('href'));
+      if (target) {
+        e.preventDefault();
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    });
+  });
+
+  // Fade-in on scroll
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.style.opacity = '1';
+        e.target.style.transform = 'translateY(0)';
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.service-card, .article-card, .step, .info-card').forEach(el => {
+    el.style.opacity = '0';
+    el.style.transform = 'translateY(20px)';
+    el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+    observer.observe(el);
+  });
+</script>
+</body>
+</html>
