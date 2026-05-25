@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>移工逃跑怎麼辦？雇主責任與通報程序 | 陳柏宏移工仲介</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600;700&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--green-dark:#1a4a2e;--green-mid:#2d7a4f;--green-light:#4aad6f;--green-pale:#e8f5ee;--gold:#c9a53a;--gold-light:#f0d987;--warm-white:#fdfaf5;--line-green:#06c755}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Sans TC',sans-serif;background:var(--warm-white);color:#1c1c1c}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(26,74,46,0.97);display:flex;align-items:center;justify-content:space-between;padding:0 6vw;height:64px;box-shadow:0 2px 20px rgba(0,0,0,0.25)}
+.nav-logo{font-family:'Noto Serif TC',serif;font-size:1.1rem;font-weight:700;color:var(--gold-light);text-decoration:none}
+.nav-logo span{color:#fff;font-weight:400}
+.nav-back{color:rgba(255,255,255,0.8);text-decoration:none;font-size:0.85rem}
+.hero-article{background:linear-gradient(160deg,rgba(26,74,46,0.95),rgba(10,28,18,0.98));padding:120px 6vw 60px;color:#fff}
+.article-cat-top{font-size:0.75rem;letter-spacing:0.12em;font-weight:700;color:var(--gold-light);margin-bottom:1rem}
+.hero-article h1{font-family:'Noto Serif TC',serif;font-size:clamp(1.6rem,3.5vw,2.4rem);font-weight:700;line-height:1.35;margin-bottom:1rem;max-width:750px}
+.article-info{display:flex;gap:1.5rem;font-size:0.8rem;color:rgba(255,255,255,0.6);flex-wrap:wrap}
+.content-wrap{max-width:780px;margin:0 auto;padding:60px 6vw 80px}
+.content-wrap h2{font-family:'Noto Serif TC',serif;font-size:1.35rem;font-weight:700;color:var(--green-dark);margin:2.5rem 0 1rem;padding-left:14px;border-left:4px solid var(--green-light)}
+.content-wrap h3{font-size:1.05rem;font-weight:700;color:var(--green-mid);margin:1.8rem 0 0.7rem}
+.content-wrap p{font-size:0.95rem;line-height:1.95;color:#333;margin-bottom:1rem}
+.content-wrap ul,ol{padding-left:1.4rem;margin-bottom:1.2rem}
+.content-wrap li{font-size:0.95rem;line-height:1.85;color:#333;margin-bottom:0.4rem}
+.tip-box{background:var(--green-pale);border-left:4px solid var(--green-mid);border-radius:0 8px 8px 0;padding:1.2rem 1.5rem;margin:1.8rem 0}
+.tip-box strong{color:var(--green-dark);display:block;margin-bottom:0.4rem;font-size:0.9rem}
+.tip-box p{margin:0;font-size:0.88rem;color:#444}
+.warn-box{background:#fff8e6;border-left:4px solid var(--gold);border-radius:0 8px 8px 0;padding:1.2rem 1.5rem;margin:1.8rem 0}
+.warn-box strong{color:#7a5a00;display:block;margin-bottom:0.4rem;font-size:0.9rem}
+.warn-box p{margin:0;font-size:0.88rem;color:#555}
+.step-list{counter-reset:steps;list-style:none;padding:0}
+.step-list li{counter-increment:steps;display:flex;gap:1rem;margin-bottom:1.2rem;align-items:flex-start}
+.step-list li::before{content:counter(steps);background:var(--green-mid);color:#fff;width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.85rem;flex-shrink:0;margin-top:2px}
+table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:0.88rem}
+th{background:var(--green-dark);color:#fff;padding:10px 14px;text-align:left;font-weight:600}
+td{padding:9px 14px;border-bottom:1px solid #e0ddd6;color:#333}
+tr:nth-child(even) td{background:#f7f4ef}
+.cta-section{background:var(--green-dark);border-radius:12px;padding:2.5rem;text-align:center;margin-top:3rem}
+.cta-section h3{font-family:'Noto Serif TC',serif;font-size:1.3rem;color:#fff;margin-bottom:0.6rem}
+.cta-section p{color:rgba(255,255,255,0.65);font-size:0.88rem;margin-bottom:1.5rem}
+.cta-btns{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap}
+.btn-gold{background:var(--gold);color:var(--green-dark);padding:12px 26px;border-radius:4px;font-weight:700;text-decoration:none;font-size:0.92rem}
+.btn-line{background:var(--line-green);color:#fff;padding:12px 26px;border-radius:4px;font-weight:700;text-decoration:none;font-size:0.92rem;display:inline-flex;align-items:center;gap:8px}
+.back-link{display:inline-flex;align-items:center;gap:6px;color:var(--green-mid);text-decoration:none;font-size:0.85rem;font-weight:500;margin-bottom:2rem}
+.float-line{position:fixed;bottom:28px;right:28px;z-index:200;background:var(--line-green);width:60px;height:60px;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(6,199,85,0.5);text-decoration:none}
+.float-line-label{font-size:0.55rem;color:#fff;font-weight:700;margin-top:1px}
+footer{background:#111810;padding:32px 6vw;color:rgba(255,255,255,0.45);font-size:0.8rem;text-align:center}
+</style>
+</head>
+<body>
+<nav>
+  <a href="index.html" class="nav-logo">陳柏宏 <span>移工仲介服務</span></a>
+  <a href="index.html#knowledge" class="nav-back">← 返回知識專欄</a>
+</nav>
+<div class="hero-article">
+  <div class="article-cat-top">▸ 常見問題</div>
+  <h1>移工逃跑怎麼辦？雇主責任與通報程序</h1>
+  <div class="article-info"><span>📅 2026年5月更新</span><span>⏱ 閱讀時間約4分鐘</span><span>✍️ 陳柏宏</span></div>
+</div>
+<div class="content-wrap">
+  <a href="index.html#knowledge" class="back-link">← 返回知識專欄</a>
+  <p>移工失聯是讓許多雇主頭疼的問題，一旦發生，雇主如果沒有依規定在期限內通報，反而會面臨罰鍰。本文說明正確的通報流程與雇主應注意的法律責任。</p>
+
+  <h2>一、發現移工失聯，第一步怎麼做？</h2>
+  <p>移工失聯後，雇主應保持冷靜，按照以下步驟處理，切勿自行追找或採取非法手段。</p>
+  <ul class="step-list">
+    <li><div><strong>確認移工確實失聯</strong><br>確認移工非請假或臨時外出，已超過合理時間未返回且無法聯繫。</div></li>
+    <li><div><strong>24小時內通報仲介</strong><br>立即聯絡仲介公司，由仲介協助後續通報及處理流程。</div></li>
+    <li><div><strong>3日內向警察局通報</strong><br>依規定，雇主須於移工失聯後3個工作日內，向當地警察局外事科通報並取得通報證明。</div></li>
+    <li><div><strong>通知勞動部及移民署</strong><br>同步通知相關主管機關，由仲介協助辦理或雇主親自辦理。</div></li>
+  </ul>
+
+  <div class="warn-box">
+    <strong>⚠️ 超過3天未通報將被罰款</strong>
+    <p>若雇主未在規定期限內通報，依《就業服務法》可處3萬至15萬元罰鍰，且影響日後申請移工的資格。</p>
+  </div>
+
+  <h2>二、通報後雇主的責任</h2>
+  <table>
+    <tr><th>項目</th><th>說明</th></tr>
+    <tr><td>薪資責任</td><td>移工失聯後停止給薪，但失聯前應結清薪資</td></tr>
+    <tr><td>保險責任</td><td>應通知健保署及勞保局辦理退保</td></tr>
+    <tr><td>宿舍責任</td><td>清點移工個人物品，依規定保管或處理</td></tr>
+    <tr><td>補充新移工</td><td>可在通報後向勞動部申請遞補名額</td></tr>
+  </table>
+
+  <h2>三、移工為何逃跑？如何預防？</h2>
+  <h3>常見原因</h3>
+  <ul>
+    <li>對薪資或工作條件不滿</li>
+    <li>工作環境惡劣或遭受不當對待</li>
+    <li>受到非法仲介或不良人士誘騙</li>
+    <li>想轉換工作環境但不知合法管道</li>
+    <li>語言溝通不良造成誤解</li>
+  </ul>
+  <h3>預防建議</h3>
+  <ul>
+    <li>定期與移工溝通，了解其工作與生活狀況</li>
+    <li>依法給付薪資，不任意剋扣</li>
+    <li>提供良好的住宿環境與合理的工作條件</li>
+    <li>讓移工了解合法轉換雇主的管道</li>
+    <li>與仲介保持聯繫，遇問題及早處理</li>
+  </ul>
+
+  <div class="tip-box">
+    <strong>💡 善用仲介的溝通服務</strong>
+    <p>好的仲介不只是辦文件，更提供雇主與移工之間的溝通橋樑服務。遇到移工有情緒或不滿，應及早請仲介協助溝通，避免問題擴大。</p>
+  </div>
+
+  <h2>四、移工被抓回後怎麼辦？</h2>
+  <p>非法移工被查獲後會由移民署處理，通常會被遣返原籍。雇主若有需要，可向勞動部申請遞補名額，重新引進新移工，仲介會協助後續手續。</p>
+
+  <div class="cta-section">
+    <h3>移工失聯了？立即聯繫陳柏宏</h3>
+    <p>第一時間協助您完成通報程序，避免雇主受罰</p>
+    <div class="cta-btns">
+      <a href="tel:0981399215" class="btn-gold">📞 0981-399-215</a>
+      <a href="https://line.me/ti/p/~your-line-id" class="btn-line" target="_blank">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M24 10.304C24 4.613 18.627 0 12 0S0 4.613 0 10.304c0 5.099 4.523 9.368 10.632 10.177.414.089.978.273 1.12.627.129.323.084.828.041 1.154l-.181 1.086c-.055.323-.256 1.263 1.107.688 1.362-.574 7.346-4.326 10.02-7.409C23.07 14.618 24 12.57 24 10.304z"/></svg>
+        LINE 立即諮詢
+      </a>
+    </div>
+  </div>
+</div>
+<footer>© 2026 陳柏宏移工仲介服務 版權所有</footer>
+<a href="https://line.me/ti/p/~your-line-id" class="float-line" target="_blank">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M24 10.304C24 4.613 18.627 0 12 0S0 4.613 0 10.304c0 5.099 4.523 9.368 10.632 10.177.414.089.978.273 1.12.627.129.323.084.828.041 1.154l-.181 1.086c-.055.323-.256 1.263 1.107.688 1.362-.574 7.346-4.326 10.02-7.409C23.07 14.618 24 12.57 24 10.304z"/></svg>
+  <span class="float-line-label">LINE</span>
+</a>
+</body>
+</html>
