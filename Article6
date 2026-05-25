@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>印尼、越南、菲律賓、泰國移工特性比較 | 陳柏宏移工仲介</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600;700&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--green-dark:#1a4a2e;--green-mid:#2d7a4f;--green-light:#4aad6f;--green-pale:#e8f5ee;--gold:#c9a53a;--gold-light:#f0d987;--warm-white:#fdfaf5;--line-green:#06c755}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Sans TC',sans-serif;background:var(--warm-white);color:#1c1c1c}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(26,74,46,0.97);display:flex;align-items:center;justify-content:space-between;padding:0 6vw;height:64px;box-shadow:0 2px 20px rgba(0,0,0,0.25)}
+.nav-logo{font-family:'Noto Serif TC',serif;font-size:1.1rem;font-weight:700;color:var(--gold-light);text-decoration:none}
+.nav-logo span{color:#fff;font-weight:400}
+.nav-back{color:rgba(255,255,255,0.8);text-decoration:none;font-size:0.85rem}
+.hero-article{background:linear-gradient(160deg,rgba(26,74,46,0.95),rgba(10,28,18,0.98));padding:120px 6vw 60px;color:#fff}
+.article-cat-top{font-size:0.75rem;letter-spacing:0.12em;font-weight:700;color:var(--gold-light);margin-bottom:1rem}
+.hero-article h1{font-family:'Noto Serif TC',serif;font-size:clamp(1.6rem,3.5vw,2.4rem);font-weight:700;line-height:1.35;margin-bottom:1rem;max-width:750px}
+.article-info{display:flex;gap:1.5rem;font-size:0.8rem;color:rgba(255,255,255,0.6);flex-wrap:wrap}
+.content-wrap{max-width:780px;margin:0 auto;padding:60px 6vw 80px}
+.content-wrap h2{font-family:'Noto Serif TC',serif;font-size:1.35rem;font-weight:700;color:var(--green-dark);margin:2.5rem 0 1rem;padding-left:14px;border-left:4px solid var(--green-light)}
+.content-wrap h3{font-size:1.05rem;font-weight:700;color:var(--green-mid);margin:1.8rem 0 0.7rem}
+.content-wrap p{font-size:0.95rem;line-height:1.95;color:#333;margin-bottom:1rem}
+.content-wrap ul{padding-left:1.4rem;margin-bottom:1.2rem}
+.content-wrap li{font-size:0.95rem;line-height:1.85;color:#333;margin-bottom:0.4rem}
+.tip-box{background:var(--green-pale);border-left:4px solid var(--green-mid);border-radius:0 8px 8px 0;padding:1.2rem 1.5rem;margin:1.8rem 0}
+.tip-box strong{color:var(--green-dark);display:block;margin-bottom:0.4rem;font-size:0.9rem}
+.tip-box p{margin:0;font-size:0.88rem;color:#444}
+.country-card{background:#fff;border:1px solid #e0ddd6;border-radius:10px;padding:1.5rem;margin-bottom:1.2rem;border-top:4px solid var(--green-mid)}
+.country-card h3{color:var(--green-dark);margin:0 0 0.8rem;font-size:1.1rem}
+.country-card .flag{font-size:1.5rem;margin-right:8px}
+.tag-row{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:0.8rem}
+.tag{font-size:0.72rem;padding:3px 10px;border-radius:12px;background:var(--green-pale);color:var(--green-mid);font-weight:500}
+table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:0.85rem}
+th{background:var(--green-dark);color:#fff;padding:10px 14px;text-align:left;font-weight:600}
+td{padding:9px 14px;border-bottom:1px solid #e0ddd6;color:#333;vertical-align:top}
+tr:nth-child(even) td{background:#f7f4ef}
+.cta-section{background:var(--green-dark);border-radius:12px;padding:2.5rem;text-align:center;margin-top:3rem}
+.cta-section h3{font-family:'Noto Serif TC',serif;font-size:1.3rem;color:#fff;margin-bottom:0.6rem}
+.cta-section p{color:rgba(255,255,255,0.65);font-size:0.88rem;margin-bottom:1.5rem}
+.cta-btns{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap}
+.btn-gold{background:var(--gold);color:var(--green-dark);padding:12px 26px;border-radius:4px;font-weight:700;text-decoration:none;font-size:0.92rem}
+.btn-line{background:var(--line-green);color:#fff;padding:12px 26px;border-radius:4px;font-weight:700;text-decoration:none;font-size:0.92rem;display:inline-flex;align-items:center;gap:8px}
+.back-link{display:inline-flex;align-items:center;gap:6px;color:var(--green-mid);text-decoration:none;font-size:0.85rem;font-weight:500;margin-bottom:2rem}
+.float-line{position:fixed;bottom:28px;right:28px;z-index:200;background:var(--line-green);width:60px;height:60px;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(6,199,85,0.5);text-decoration:none}
+.float-line-label{font-size:0.55rem;color:#fff;font-weight:700;margin-top:1px}
+footer{background:#111810;padding:32px 6vw;color:rgba(255,255,255,0.45);font-size:0.8rem;text-align:center}
+</style>
+</head>
+<body>
+<nav>
+  <a href="index.html" class="nav-logo">陳柏宏 <span>移工仲介服務</span></a>
+  <a href="index.html#knowledge" class="nav-back">← 返回知識專欄</a>
+</nav>
+<div class="hero-article">
+  <div class="article-cat-top">▸ 跨國比較</div>
+  <h1>印尼、越南、菲律賓、泰國移工特性比較</h1>
+  <div class="article-info"><span>📅 2026年5月更新</span><span>⏱ 閱讀時間約8分鐘</span><span>✍️ 陳柏宏</span></div>
+</div>
+<div class="content-wrap">
+  <a href="index.html#knowledge" class="back-link">← 返回知識專欄</a>
+  <p>台灣的外籍移工主要來自印尼、越南、菲律賓和泰國四個國家。每個國家的移工在語言能力、文化背景、工作習性及費用上都有明顯差異，選擇適合的來源國是確保合作順暢的關鍵。</p>
+
+  <h2>一、四國移工總覽比較</h2>
+  <table>
+    <tr><th>比較項目</th><th>🇮🇩 印尼</th><th>🇻🇳 越南</th><th>🇵🇭 菲律賓</th><th>🇹🇭 泰國</th></tr>
+    <tr><td>中文溝通</td><td>較弱</td><td>中等</td><td>較弱</td><td>較弱</td></tr>
+    <tr><td>英文溝通</td><td>普通</td><td>普通</td><td>強</td><td>普通</td></tr>
+    <tr><td>主要宗教</td><td>伊斯蘭教</td><td>佛教</td><td>天主教</td><td>佛教</td></tr>
+    <tr><td>飲食限制</td><td>不吃豬肉</td><td>無特殊</td><td>無特殊</td><td>無特殊</td></tr>
+    <tr><td>工作態度</td><td>溫順勤勞</td><td>積極努力</td><td>主動開朗</td><td>隨和穩定</td></tr>
+    <tr><td>看護適合度</td><td>★★★★★</td><td>★★★★</td><td>★★★★</td><td>★★★</td></tr>
+    <tr><td>農業適合度</td><td>★★★★</td><td>★★★★★</td><td>★★★</td><td>★★★★</td></tr>
+    <tr><td>製造業適合度</td><td>★★★★</td><td>★★★★★</td><td>★★★</td><td>★★★★</td></tr>
+  </table>
+
+  <h2>二、各國移工詳細特性</h2>
+
+  <div class="country-card">
+    <h3><span class="flag">🇮🇩</span>印尼移工</h3>
+    <div class="tag-row"><span class="tag">看護首選</span><span class="tag">溫順勤勞</span><span class="tag">伊斯蘭信仰</span></div>
+    <p>印尼是台灣引進看護工最大的來源國，以溫順、有耐心著稱，非常適合照顧老人及病患。印尼移工大多信仰伊斯蘭教，雇主需注意不可提供豬肉食品，並尊重其禮拜時間。</p>
+    <ul>
+      <li>優點：照護耐心佳、個性溫和、穩定性高</li>
+      <li>注意：飲食禁豬肉，齋戒月期間需特別留意</li>
+      <li>適合工作：居家看護、老人照護、農業</li>
+    </ul>
+  </div>
+
+  <div class="country-card">
+    <h3><span class="flag">🇻🇳</span>越南移工</h3>
+    <div class="tag-row"><span class="tag">製造業主力</span><span class="tag">積極努力</span><span class="tag">學習力強</span></div>
+    <p>越南移工是台灣製造業及農業的重要勞動力來源，以積極努力、學習意願強為特點。越南移工通常較有主見，對薪資及工作條件較為重視，但工作效率及適應力也相對較強。</p>
+    <ul>
+      <li>優點：工作積極、學習快、無飲食禁忌</li>
+      <li>注意：較重視自身權益，溝通需更細心</li>
+      <li>適合工作：製造業、農業採收、電子業</li>
+    </ul>
+  </div>
+
+  <div class="country-card">
+    <h3><span class="flag">🇵🇭</span>菲律賓移工</h3>
+    <div class="tag-row"><span class="tag">英語溝通佳</span><span class="tag">開朗主動</span><span class="tag">家政能力強</span></div>
+    <p>菲律賓移工的最大優勢在於英語能力，適合需要語言溝通的工作環境。個性開朗外向，人際關係佳，但薪資期望相對較高，且菲律賓政府對於移工保護規定較為嚴格。</p>
+    <ul>
+      <li>優點：英語流利、個性活潑、溝通能力強</li>
+      <li>注意：費用較高，菲律賓政府要求雇主提供較完善的福利</li>
+      <li>適合工作：看護、家事服務、需英語溝通的工作</li>
+    </ul>
+  </div>
+
+  <div class="country-card">
+    <h3><span class="flag">🇹🇭</span>泰國移工</h3>
+    <div class="tag-row"><span class="tag">農業經驗豐</span><span class="tag">隨和穩定</span><span class="tag">佛教信仰</span></div>
+    <p>泰國移工以農業背景豐富著稱，個性隨和穩定，不容易與雇主發生衝突。泰國信仰佛教，文化上與台灣較為接近，適應台灣生活的速度也相對較快。</p>
+    <ul>
+      <li>優點：農業技術熟練、個性穩定、無飲食禁忌</li>
+      <li>注意：泰文與中文差距大，語言溝通需時間適應</li>
+      <li>適合工作：農業、漁業、製造業</li>
+    </ul>
+  </div>
+
+  <h2>三、如何選擇適合的來源國？</h2>
+  <div class="tip-box">
+    <strong>💡 選擇建議</strong>
+    <p>居家看護 → 優先考慮印尼；製造業廠工 → 優先考慮越南；需要英語溝通 → 考慮菲律賓；農業且重視穩定性 → 越南或泰國都不錯。實際選擇時建議與仲介充分討論，依您的實際需求量身建議。</p>
+  </div>
+
+  <div class="cta-section">
+    <h3>不知道選哪個國家？讓陳柏宏幫您分析</h3>
+    <p>根據您的工作類型、工作環境和管理習慣，推薦最適合的來源國</p>
+    <div class="cta-btns">
+      <a href="tel:0981399215" class="btn-gold">📞 0981-399-215</a>
+      <a href="https://line.me/ti/p/~your-line-id" class="btn-line" target="_blank">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M24 10.304C24 4.613 18.627 0 12 0S0 4.613 0 10.304c0 5.099 4.523 9.368 10.632 10.177.414.089.978.273 1.12.627.129.323.084.828.041 1.154l-.181 1.086c-.055.323-.256 1.263 1.107.688 1.362-.574 7.346-4.326 10.02-7.409C23.07 14.618 24 12.57 24 10.304z"/></svg>
+        LINE 立即諮詢
+      </a>
+    </div>
+  </div>
+</div>
+<footer>© 2026 陳柏宏移工仲介服務 版權所有</footer>
+<a href="https://line.me/ti/p/~your-line-id" class="float-line" target="_blank">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M24 10.304C24 4.613 18.627 0 12 0S0 4.613 0 10.304c0 5.099 4.523 9.368 10.632 10.177.414.089.978.273 1.12.627.129.323.084.828.041 1.154l-.181 1.086c-.055.323-.256 1.263 1.107.688 1.362-.574 7.346-4.326 10.02-7.409C23.07 14.618 24 12.57 24 10.304z"/></svg>
+  <span class="float-line-label">LINE</span>
+</a>
+</body>
+</html>
