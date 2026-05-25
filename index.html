@@ -32,6 +32,16 @@
     overflow-x: hidden;
   }
 
+  /* ── ABOUT ── */
+  .about-inner {
+    max-width: 960px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1.6fr;
+    gap: 4rem;
+    align-items: center;
+  }
+
   /* ── NAVBAR ── */
   nav {
     position: fixed; top: 0; left: 0; right: 0; z-index: 100;
@@ -419,10 +429,10 @@
     .footer-bottom { flex-direction: column; text-align: center; }
     .process-steps { grid-template-columns: 1fr 1fr; gap: 1.5rem; }
 
-    #about > div {
+    .about-inner {
       display: block !important;
     }
-    #about > div > div:first-child {
+    .about-inner > div:first-child {
       margin-bottom: 2rem;
     }
   }
@@ -471,7 +481,7 @@
 
 <!-- ABOUT -->
 <section id="about" style="background:#fff; padding:80px 6vw;">
-  <div style="max-width:960px; margin:0 auto; display:grid; grid-template-columns:1fr 1.6fr; gap:4rem; align-items:center;">
+  <div class="about-inner">
     <div style="text-align:center;">
       <div style="width:160px; height:160px; border-radius:50%; background:linear-gradient(135deg,#2d7a4f,#1a4a2e); margin:0 auto 1.5rem; display:flex; align-items:center; justify-content:center; box-shadow:0 8px 32px rgba(26,74,46,0.25);">
         <span style="font-family:'Noto Serif TC',serif; font-size:3.5rem; font-weight:700; color:rgba(255,255,255,0.9);">宏</span>
