@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026年農業移工申請資格完整說明 | 陳柏宏移工仲介</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600;700&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--green-dark:#1a4a2e;--green-mid:#2d7a4f;--green-light:#4aad6f;--green-pale:#e8f5ee;--gold:#c9a53a;--gold-light:#f0d987;--warm-white:#fdfaf5;--line-green:#06c755;--text-dark:#1c1c1c;--text-light:#777}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Sans TC',sans-serif;background:var(--warm-white);color:var(--text-dark)}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(26,74,46,0.97);display:flex;align-items:center;justify-content:space-between;padding:0 6vw;height:64px;box-shadow:0 2px 20px rgba(0,0,0,0.25)}
+.nav-logo{font-family:'Noto Serif TC',serif;font-size:1.1rem;font-weight:700;color:var(--gold-light);text-decoration:none}
+.nav-logo span{color:#fff;font-weight:400}
+.nav-back{color:rgba(255,255,255,0.8);text-decoration:none;font-size:0.85rem;display:flex;align-items:center;gap:6px;transition:color 0.2s}
+.nav-back:hover{color:var(--gold-light)}
+.hero-article{background:linear-gradient(160deg,rgba(26,74,46,0.95),rgba(10,28,18,0.98));padding:120px 6vw 60px;color:#fff}
+.article-cat-top{font-size:0.75rem;letter-spacing:0.12em;font-weight:700;color:var(--gold-light);margin-bottom:1rem}
+.hero-article h1{font-family:'Noto Serif TC',serif;font-size:clamp(1.6rem,3.5vw,2.4rem);font-weight:700;line-height:1.35;margin-bottom:1rem;max-width:750px}
+.article-info{display:flex;gap:1.5rem;font-size:0.8rem;color:rgba(255,255,255,0.6);flex-wrap:wrap}
+.content-wrap{max-width:780px;margin:0 auto;padding:60px 6vw 80px}
+.content-wrap h2{font-family:'Noto Serif TC',serif;font-size:1.35rem;font-weight:700;color:var(--green-dark);margin:2.5rem 0 1rem;padding-left:14px;border-left:4px solid var(--green-light)}
+.content-wrap h3{font-size:1.05rem;font-weight:700;color:var(--green-mid);margin:1.8rem 0 0.7rem}
+.content-wrap p{font-size:0.95rem;line-height:1.95;color:#333;margin-bottom:1rem}
+.content-wrap ul,ol{padding-left:1.4rem;margin-bottom:1.2rem}
+.content-wrap li{font-size:0.95rem;line-height:1.85;color:#333;margin-bottom:0.4rem}
+.tip-box{background:var(--green-pale);border-left:4px solid var(--green-mid);border-radius:0 8px 8px 0;padding:1.2rem 1.5rem;margin:1.8rem 0}
+.tip-box strong{color:var(--green-dark);display:block;margin-bottom:0.4rem;font-size:0.9rem}
+.tip-box p{margin:0;font-size:0.88rem;color:#444}
+.warn-box{background:#fff8e6;border-left:4px solid var(--gold);border-radius:0 8px 8px 0;padding:1.2rem 1.5rem;margin:1.8rem 0}
+.warn-box strong{color:#7a5a00;display:block;margin-bottom:0.4rem;font-size:0.9rem}
+.warn-box p{margin:0;font-size:0.88rem;color:#555}
+table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:0.88rem}
+th{background:var(--green-dark);color:#fff;padding:10px 14px;text-align:left;font-weight:600}
+td{padding:9px 14px;border-bottom:1px solid #e0ddd6;color:#333}
+tr:nth-child(even) td{background:#f7f4ef}
+.cta-section{background:var(--green-dark);border-radius:12px;padding:2.5rem;text-align:center;margin-top:3rem}
+.cta-section h3{font-family:'Noto Serif TC',serif;font-size:1.3rem;color:#fff;margin-bottom:0.6rem}
+.cta-section p{color:rgba(255,255,255,0.65);font-size:0.88rem;margin-bottom:1.5rem}
+.cta-btns{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap}
+.btn-gold{background:var(--gold);color:var(--green-dark);padding:12px 26px;border-radius:4px;font-weight:700;text-decoration:none;font-size:0.92rem;transition:background 0.2s}
+.btn-gold:hover{background:var(--gold-light)}
+.btn-line{background:var(--line-green);color:#fff;padding:12px 26px;border-radius:4px;font-weight:700;text-decoration:none;font-size:0.92rem;display:inline-flex;align-items:center;gap:8px}
+.back-link{display:inline-flex;align-items:center;gap:6px;color:var(--green-mid);text-decoration:none;font-size:0.85rem;font-weight:500;margin-bottom:2rem}
+.back-link:hover{color:var(--green-dark)}
+.float-line{position:fixed;bottom:28px;right:28px;z-index:200;background:var(--line-green);width:60px;height:60px;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(6,199,85,0.5);text-decoration:none;transition:transform 0.2s}
+.float-line:hover{transform:scale(1.1)}
+.float-line-label{font-size:0.55rem;color:#fff;font-weight:700;margin-top:1px}
+footer{background:#111810;padding:32px 6vw;color:rgba(255,255,255,0.45);font-size:0.8rem;text-align:center}
+</style>
+</head>
+<body>
+<nav>
+  <a href="index.html" class="nav-logo">陳柏宏 <span>移工仲介服務</span></a>
+  <a href="index.html#knowledge" class="nav-back">← 返回知識專欄</a>
+</nav>
+
+<div class="hero-article">
+  <div class="article-cat-top">▸ 農業外勞</div>
+  <h1>2026年農業移工申請資格完整說明</h1>
+  <div class="article-info">
+    <span>📅 2026年5月更新</span>
+    <span>⏱ 閱讀時間約5分鐘</span>
+    <span>✍️ 陳柏宏</span>
+  </div>
+</div>
+
+<div class="content-wrap">
+  <a href="index.html#knowledge" class="back-link">← 返回知識專欄</a>
+
+  <p>農業是台灣重要的基礎產業，但長期面臨勞動力短缺的困境。引進外籍移工是許多農場主解決人力問題的有效方式。本文整理2026年最新的農業移工申請資格與注意事項，幫助有意引進的農業雇主快速掌握重點。</p>
+
+  <h2>一、誰可以申請農業移工？</h2>
+  <p>並非所有農業從事者都可申請外籍移工，雇主必須符合以下基本條件：</p>
+  <ul>
+    <li>具有農業用地所有權或合法租用證明</li>
+    <li>農業用地面積達到規定標準（依作物類型不同而異）</li>
+    <li>雇主本人或配偶為農業從事者</li>
+    <li>無欠繳勞健保費或稅款等不良紀錄</li>
+    <li>過去無違反移工管理相關法規之紀錄</li>
+  </ul>
+
+  <div class="tip-box">
+    <strong>💡 小提醒</strong>
+    <p>首次申請農業移工的雇主，建議提前3～6個月開始準備文件，因為部分證明文件（如農業用地使用同意書）需要時間辦理。</p>
+  </div>
+
+  <h2>二、各類農業最低土地面積規定</h2>
+  <table>
+    <tr><th>農業類別</th><th>最低土地面積</th><th>備註</th></tr>
+    <tr><td>水稻、雜糧</td><td>2公頃以上</td><td>須有自耕或租用證明</td></tr>
+    <tr><td>蔬菜、花卉</td><td>0.5公頃以上</td><td>設施栽培可酌減</td></tr>
+    <tr><td>果樹（如柑橘、芒果）</td><td>1公頃以上</td><td>山坡地依傾斜度調整</td></tr>
+    <tr><td>茶葉</td><td>1公頃以上</td><td>需有製茶設備</td></tr>
+    <tr><td>養殖漁業</td><td>1公頃水面以上</td><td>需有合法養殖登記</td></tr>
+    <tr><td>畜牧業</td><td>依飼養規模</td><td>豬場需200頭以上</td></tr>
+  </table>
+
+  <h2>三、可申請的移工人數上限</h2>
+  <p>農業移工的引進人數依雇主規模而定，一般原則如下：</p>
+  <ul>
+    <li>基本名額：每戶農家最多可申請2名</li>
+    <li>擴大名額：符合特定規模條件者，最多可至5名</li>
+    <li>大型農場：經農委會認定之大型農場，依實際需求核定</li>
+  </ul>
+
+  <div class="warn-box">
+    <strong>⚠️ 注意事項</strong>
+    <p>農業移工不得從事非農業性質的工作，若被查獲指派移工至其他場所或從事非核定工作，雇主將面臨罰鍰並取消申請資格。</p>
+  </div>
+
+  <h2>四、必備申請文件清單</h2>
+  <ol>
+    <li>雇主身分證正反面影本</li>
+    <li>農業用地所有權狀或租賃契約書</li>
+    <li>農會會員證明或農業從事者證明</li>
+    <li>農業用地現況照片（近三個月內拍攝）</li>
+    <li>農業生產計畫書</li>
+    <li>勞工保險投保資料（若有本勞）</li>
+    <li>無欠稅欠費證明</li>
+  </ol>
+
+  <h2>五、申請流程簡介</h2>
+  <p>農業移工的申請須透過合法仲介辦理，主要流程包含：雇主資格確認→向勞動部申請招募許可→選工面試→辦理入境→健康檢查→簽訂勞動契約。整體流程約需3～6個月不等。</p>
+
+  <div class="tip-box">
+    <strong>💡 季節性農業移工</strong>
+    <p>針對農忙季節短期需求，政府設有「季節性農業外勞」專案，申請門檻較低、工期彈性，適合採收季節人力需求較大的農場主。</p>
+  </div>
+
+  <h2>六、常見問題 Q&A</h2>
+  <h3>Q：租借農地可以申請農業移工嗎？</h3>
+  <p>可以，但需提供合法的土地租賃契約，且租期須達一定年限（通常要求一年以上），並附上地主同意書。</p>
+  <h3>Q：農業移工可以住在農場裡嗎？</h3>
+  <p>可以，但雇主需提供符合法規的住宿環境，包含適當的生活空間、衛浴設備及安全措施，並依規定收取合理費用。</p>
+  <h3>Q：農業移工可以轉換到其他雇主嗎？</h3>
+  <p>原則上農業移工不可自行轉換，但若雇主有違法行為或特殊情況，移工可依相關規定申請轉換。</p>
+
+  <div class="cta-section">
+    <h3>還有疑問？歡迎直接諮詢</h3>
+    <p>陳柏宏提供免費初步諮詢，協助您評估申請資格與規劃引進方案</p>
+    <div class="cta-btns">
+      <a href="tel:0981399215" class="btn-gold">📞 0981-399-215</a>
+      <a href="https://line.me/ti/p/~your-line-id" class="btn-line" target="_blank">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M24 10.304C24 4.613 18.627 0 12 0S0 4.613 0 10.304c0 5.099 4.523 9.368 10.632 10.177.414.089.978.273 1.12.627.129.323.084.828.041 1.154l-.181 1.086c-.055.323-.256 1.263 1.107.688 1.362-.574 7.346-4.326 10.02-7.409C23.07 14.618 24 12.57 24 10.304z"/></svg>
+        LINE 立即諮詢
+      </a>
+    </div>
+  </div>
+</div>
+
+<footer>© 2026 陳柏宏移工仲介服務 版權所有</footer>
+
+<a href="https://line.me/ti/p/~your-line-id" class="float-line" target="_blank">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M24 10.304C24 4.613 18.627 0 12 0S0 4.613 0 10.304c0 5.099 4.523 9.368 10.632 10.177.414.089.978.273 1.12.627.129.323.084.828.041 1.154l-.181 1.086c-.055.323-.256 1.263 1.107.688 1.362-.574 7.346-4.326 10.02-7.409C23.07 14.618 24 12.57 24 10.304z"/></svg>
+  <span class="float-line-label">LINE</span>
+</a>
+</body>
+</html>
