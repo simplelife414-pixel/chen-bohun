@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>申請外籍看護工需要哪些證明文件？ | 陳柏宏移工仲介</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600;700&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--green-dark:#1a4a2e;--green-mid:#2d7a4f;--green-light:#4aad6f;--green-pale:#e8f5ee;--gold:#c9a53a;--gold-light:#f0d987;--warm-white:#fdfaf5;--line-green:#06c755;--text-dark:#1c1c1c}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Sans TC',sans-serif;background:var(--warm-white);color:var(--text-dark)}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(26,74,46,0.97);display:flex;align-items:center;justify-content:space-between;padding:0 6vw;height:64px;box-shadow:0 2px 20px rgba(0,0,0,0.25)}
+.nav-logo{font-family:'Noto Serif TC',serif;font-size:1.1rem;font-weight:700;color:var(--gold-light);text-decoration:none}
+.nav-logo span{color:#fff;font-weight:400}
+.nav-back{color:rgba(255,255,255,0.8);text-decoration:none;font-size:0.85rem;display:flex;align-items:center;gap:6px;transition:color 0.2s}
+.nav-back:hover{color:var(--gold-light)}
+.hero-article{background:linear-gradient(160deg,rgba(26,74,46,0.95),rgba(10,28,18,0.98));padding:120px 6vw 60px;color:#fff}
+.article-cat-top{font-size:0.75rem;letter-spacing:0.12em;font-weight:700;color:var(--gold-light);margin-bottom:1rem}
+.hero-article h1{font-family:'Noto Serif TC',serif;font-size:clamp(1.6rem,3.5vw,2.4rem);font-weight:700;line-height:1.35;margin-bottom:1rem;max-width:750px}
+.article-info{display:flex;gap:1.5rem;font-size:0.8rem;color:rgba(255,255,255,0.6);flex-wrap:wrap}
+.content-wrap{max-width:780px;margin:0 auto;padding:60px 6vw 80px}
+.content-wrap h2{font-family:'Noto Serif TC',serif;font-size:1.35rem;font-weight:700;color:var(--green-dark);margin:2.5rem 0 1rem;padding-left:14px;border-left:4px solid var(--green-light)}
+.content-wrap h3{font-size:1.05rem;font-weight:700;color:var(--green-mid);margin:1.8rem 0 0.7rem}
+.content-wrap p{font-size:0.95rem;line-height:1.95;color:#333;margin-bottom:1rem}
+.content-wrap ul,ol{padding-left:1.4rem;margin-bottom:1.2rem}
+.content-wrap li{font-size:0.95rem;line-height:1.85;color:#333;margin-bottom:0.4rem}
+.tip-box{background:var(--green-pale);border-left:4px solid var(--green-mid);border-radius:0 8px 8px 0;padding:1.2rem 1.5rem;margin:1.8rem 0}
+.tip-box strong{color:var(--green-dark);display:block;margin-bottom:0.4rem;font-size:0.9rem}
+.tip-box p{margin:0;font-size:0.88rem;color:#444}
+.warn-box{background:#fff8e6;border-left:4px solid var(--gold);border-radius:0 8px 8px 0;padding:1.2rem 1.5rem;margin:1.8rem 0}
+.warn-box strong{color:#7a5a00;display:block;margin-bottom:0.4rem;font-size:0.9rem}
+.warn-box p{margin:0;font-size:0.88rem;color:#555}
+table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:0.88rem}
+th{background:var(--green-dark);color:#fff;padding:10px 14px;text-align:left;font-weight:600}
+td{padding:9px 14px;border-bottom:1px solid #e0ddd6;color:#333}
+tr:nth-child(even) td{background:#f7f4ef}
+.cta-section{background:var(--green-dark);border-radius:12px;padding:2.5rem;text-align:center;margin-top:3rem}
+.cta-section h3{font-family:'Noto Serif TC',serif;font-size:1.3rem;color:#fff;margin-bottom:0.6rem}
+.cta-section p{color:rgba(255,255,255,0.65);font-size:0.88rem;margin-bottom:1.5rem}
+.cta-btns{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap}
+.btn-gold{background:var(--gold);color:var(--green-dark);padding:12px 26px;border-radius:4px;font-weight:700;text-decoration:none;font-size:0.92rem}
+.btn-line{background:var(--line-green);color:#fff;padding:12px 26px;border-radius:4px;font-weight:700;text-decoration:none;font-size:0.92rem;display:inline-flex;align-items:center;gap:8px}
+.back-link{display:inline-flex;align-items:center;gap:6px;color:var(--green-mid);text-decoration:none;font-size:0.85rem;font-weight:500;margin-bottom:2rem}
+.float-line{position:fixed;bottom:28px;right:28px;z-index:200;background:var(--line-green);width:60px;height:60px;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(6,199,85,0.5);text-decoration:none}
+.float-line-label{font-size:0.55rem;color:#fff;font-weight:700;margin-top:1px}
+footer{background:#111810;padding:32px 6vw;color:rgba(255,255,255,0.45);font-size:0.8rem;text-align:center}
+</style>
+</head>
+<body>
+<nav>
+  <a href="index.html" class="nav-logo">陳柏宏 <span>移工仲介服務</span></a>
+  <a href="index.html#knowledge" class="nav-back">← 返回知識專欄</a>
+</nav>
+
+<div class="hero-article">
+  <div class="article-cat-top">▸ 看護工</div>
+  <h1>申請外籍看護工需要哪些證明文件？</h1>
+  <div class="article-info">
+    <span>📅 2026年5月更新</span>
+    <span>⏱ 閱讀時間約6分鐘</span>
+    <span>✍️ 陳柏宏</span>
+  </div>
+</div>
+
+<div class="content-wrap">
+  <a href="index.html#knowledge" class="back-link">← 返回知識專欄</a>
+
+  <p>申請外籍看護工是許多有長照需求家庭的重要選擇，但申請過程中需要準備的文件繁多，若有缺漏將導致補件延誤時程。本文完整列出所有必備文件，讓您一次備齊，順利通過審核。</p>
+
+  <h2>一、誰可以申請外籍看護工？</h2>
+  <p>申請外籍看護工的資格以「被看護者」的身體狀況為主要依據，必須符合以下其中一項：</p>
+  <ul>
+    <li>經醫療機構診斷，確認為長期失能且需要全日照護者</li>
+    <li>符合巴氏量表評估60分以下（即中度以上失能）</li>
+    <li>年齡80歲以上，且有日常生活需人協助者</li>
+    <li>領有身心障礙證明，且符合照護需求者</li>
+    <li>罹患特定重大傷病，需長期照護者</li>
+  </ul>
+
+  <div class="warn-box">
+    <strong>⚠️ 重要提醒</strong>
+    <p>巴氏量表須由合格醫師在醫療院所評估填寫，不可自行填寫或請非醫療人員代填。建議至區域醫院以上之醫療機構申請評估。</p>
+  </div>
+
+  <h2>二、被看護者應備文件</h2>
+  <ul>
+    <li>身分證正反面影本</li>
+    <li>巴氏量表（由醫師填寫，需60分以下）</li>
+    <li>診斷證明書（載明病名及需全日看護之醫師意見）</li>
+    <li>重大傷病卡影本（若有）</li>
+    <li>身心障礙證明影本（若有）</li>
+    <li>近三個月內健保就診紀錄</li>
+  </ul>
+
+  <h2>三、雇主（家屬）應備文件</h2>
+  <ul>
+    <li>雇主身分證正反面影本</li>
+    <li>與被看護者之親屬關係證明（戶口名簿或戶籍謄本）</li>
+    <li>最近一期綜合所得稅申報資料或財力證明</li>
+    <li>住所證明（房屋所有權狀或租賃契約）</li>
+    <li>無欠稅、欠費之證明</li>
+    <li>雇主切結書（由仲介提供格式）</li>
+  </ul>
+
+  <div class="tip-box">
+    <strong>💡 若雇主與被看護者非直系親屬</strong>
+    <p>若申請人非被看護者的子女或配偶，需額外提供委託書及說明照護關係的補充文件，建議提前與仲介確認。</p>
+  </div>
+
+  <h2>四、各類特殊情形補充文件</h2>
+  <table>
+    <tr><th>情形</th><th>需補充文件</th></tr>
+    <tr><td>被看護者住院中</td><td>醫院同意移工入院照護之證明</td></tr>
+    <tr><td>租屋居住</td><td>房東同意外籍人士居住之同意書</td></tr>
+    <tr><td>雇主為外籍配偶</td><td>居留證及結婚證書</td></tr>
+    <tr><td>更換看護工</td><td>原移工之解約或期滿證明</td></tr>
+    <tr><td>被看護者已故</td><td>不符申請資格，需重新評估</td></tr>
+  </table>
+
+  <h2>五、申請審核時程</h2>
+  <p>完整文件送出後，勞動部審核約需2至4週，審核通過後發給「招募許可函」，再由仲介進行後續選工、訓練及入境流程，整體約需4至6個月。</p>
+
+  <h2>六、常見被退件原因</h2>
+  <ul>
+    <li>巴氏量表由非合格醫師填寫</li>
+    <li>診斷證明書未載明需全日照護</li>
+    <li>雇主財力證明顯示無力負擔薪資</li>
+    <li>住所空間不符合移工居住標準</li>
+    <li>文件超過有效期限（通常為3個月內）</li>
+  </ul>
+
+  <div class="cta-section">
+    <h3>文件準備有疑問？讓我來幫您</h3>
+    <p>陳柏宏提供文件清單確認與申請輔導，避免退件浪費時間</p>
+    <div class="cta-btns">
+      <a href="tel:0981399215" class="btn-gold">📞 0981-399-215</a>
+      <a href="https://line.me/ti/p/~your-line-id" class="btn-line" target="_blank">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M24 10.304C24 4.613 18.627 0 12 0S0 4.613 0 10.304c0 5.099 4.523 9.368 10.632 10.177.414.089.978.273 1.12.627.129.323.084.828.041 1.154l-.181 1.086c-.055.323-.256 1.263 1.107.688 1.362-.574 7.346-4.326 10.02-7.409C23.07 14.618 24 12.57 24 10.304z"/></svg>
+        LINE 立即諮詢
+      </a>
+    </div>
+  </div>
+</div>
+
+<footer>© 2026 陳柏宏移工仲介服務 版權所有</footer>
+<a href="https://line.me/ti/p/~your-line-id" class="float-line" target="_blank">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M24 10.304C24 4.613 18.627 0 12 0S0 4.613 0 10.304c0 5.099 4.523 9.368 10.632 10.177.414.089.978.273 1.12.627.129.323.084.828.041 1.154l-.181 1.086c-.055.323-.256 1.263 1.107.688 1.362-.574 7.346-4.326 10.02-7.409C23.07 14.618 24 12.57 24 10.304z"/></svg>
+  <span class="float-line-label">LINE</span>
+</a>
+</body>
+</html>
