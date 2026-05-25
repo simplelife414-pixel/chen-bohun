@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>知識專欄 | 陳柏宏移工仲介服務</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600;700&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--green-dark:#1a4a2e;--green-mid:#2d7a4f;--green-light:#4aad6f;--green-pale:#e8f5ee;--gold:#c9a53a;--gold-light:#f0d987;--warm-white:#fdfaf5;--off-white:#f5f0e8;--line-green:#06c755;--text-dark:#1c1c1c;--text-light:#777}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Sans TC',sans-serif;background:var(--warm-white);color:var(--text-dark)}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(26,74,46,0.97);display:flex;align-items:center;justify-content:space-between;padding:0 6vw;height:64px;box-shadow:0 2px 20px rgba(0,0,0,0.25)}
+.nav-logo{font-family:'Noto Serif TC',serif;font-size:1.1rem;font-weight:700;color:var(--gold-light);text-decoration:none}
+.nav-logo span{color:#fff;font-weight:400}
+.nav-links{display:flex;gap:2rem;list-style:none}
+.nav-links a{color:rgba(255,255,255,0.85);text-decoration:none;font-size:0.875rem;transition:color 0.2s}
+.nav-links a:hover{color:var(--gold-light)}
+.nav-line-btn{background:var(--line-green);color:#fff;border:none;border-radius:24px;padding:8px 18px;font-size:0.82rem;font-weight:700;cursor:pointer;display:flex;align-items:center;gap:7px;text-decoration:none;transition:opacity 0.2s}
+.nav-line-btn:hover{opacity:0.9}
+
+/* HERO */
+.hero{background:linear-gradient(160deg,rgba(26,74,46,0.95),rgba(10,28,18,0.98));padding:110px 6vw 60px;color:#fff}
+.hero-tag{font-size:0.75rem;letter-spacing:0.12em;font-weight:700;color:var(--gold-light);margin-bottom:1rem}
+.hero h1{font-family:'Noto Serif TC',serif;font-size:clamp(1.8rem,3.5vw,2.6rem);font-weight:700;line-height:1.35;margin-bottom:0.8rem}
+.hero p{font-size:0.95rem;color:rgba(255,255,255,0.65);max-width:520px;line-height:1.8}
+
+/* FILTER */
+.filter-bar{background:#fff;border-bottom:1px solid #e0ddd6;padding:0 6vw;display:flex;gap:0.6rem;overflow-x:auto;white-space:nowrap;-webkit-overflow-scrolling:touch}
+.filter-btn{padding:14px 18px;font-size:0.82rem;font-weight:600;color:var(--text-light);border:none;background:none;cursor:pointer;border-bottom:3px solid transparent;transition:color 0.2s,border-color 0.2s;white-space:nowrap}
+.filter-btn:hover{color:var(--green-mid)}
+.filter-btn.active{color:var(--green-mid);border-bottom-color:var(--green-mid)}
+
+/* ARTICLES */
+.articles-section{padding:60px 6vw 80px;max-width:1100px;margin:0 auto}
+.articles-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.5rem;margin-top:2rem}
+.article-card{background:#fff;border:1px solid #e0ddd6;border-radius:10px;overflow:hidden;text-decoration:none;color:inherit;display:block;transition:transform 0.2s,box-shadow 0.2s}
+.article-card:hover{transform:translateY(-4px);box-shadow:0 12px 32px rgba(26,74,46,0.12)}
+.article-banner{height:6px;background:linear-gradient(90deg,var(--green-mid),var(--green-light))}
+.article-body{padding:1.5rem}
+.article-cat{font-size:0.7rem;letter-spacing:0.1em;font-weight:700;color:var(--green-mid);margin-bottom:0.5rem}
+.article-card h3{font-size:1rem;font-weight:700;color:var(--text-dark);line-height:1.5;margin-bottom:0.6rem}
+.article-card p{font-size:0.83rem;color:var(--text-light);line-height:1.7;margin-bottom:1rem}
+.article-meta{font-size:0.75rem;color:var(--text-light);padding-top:0.8rem;border-top:1px solid #eee;display:flex;justify-content:space-between;align-items:center}
+.read-more{font-size:0.8rem;font-weight:700;color:var(--green-mid)}
+.article-card:hover .read-more{color:var(--green-dark)}
+
+/* CTA */
+.cta-bar{background:var(--green-dark);padding:60px 6vw;text-align:center}
+.cta-bar h2{font-family:'Noto Serif TC',serif;font-size:1.6rem;color:#fff;margin-bottom:0.6rem}
+.cta-bar p{color:rgba(255,255,255,0.65);font-size:0.9rem;margin-bottom:1.5rem}
+.cta-btns{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap}
+.btn-gold{background:var(--gold);color:var(--green-dark);padding:12px 28px;border-radius:4px;font-weight:700;text-decoration:none;font-size:0.95rem;transition:background 0.2s}
+.btn-gold:hover{background:var(--gold-light)}
+.btn-line{background:var(--line-green);color:#fff;padding:12px 28px;border-radius:4px;font-weight:700;text-decoration:none;font-size:0.95rem;display:inline-flex;align-items:center;gap:8px}
+
+/* FLOAT LINE */
+.float-line{position:fixed;bottom:28px;right:28px;z-index:200;background:var(--line-green);width:60px;height:60px;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(6,199,85,0.5);text-decoration:none;transition:transform 0.2s}
+.float-line:hover{transform:scale(1.1)}
+.float-line-label{font-size:0.55rem;color:#fff;font-weight:700;margin-top:1px}
+
+footer{background:#111810;padding:32px 6vw;color:rgba(255,255,255,0.45);font-size:0.8rem;text-align:center}
+
+@media(max-width:680px){.nav-links{display:none}}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">陳柏宏 <span>移工仲介服務</span></a>
+  <ul class="nav-links">
+    <li><a href="index.html#about">關於我</a></li>
+    <li><a href="index.html#services">服務項目</a></li>
+    <li><a href="knowledge.html">知識專欄</a></li>
+    <li><a href="index.html#booking">預約諮詢</a></li>
+  </ul>
+  <a href="https://page.line.me/802rcpwh" class="nav-line-btn" target="_blank">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M24 10.304C24 4.613 18.627 0 12 0S0 4.613 0 10.304c0 5.099 4.523 9.368 10.632 10.177.414.089.978.273 1.12.627.129.323.084.828.041 1.154l-.181 1.086c-.055.323-.256 1.263 1.107.688 1.362-.574 7.346-4.326 10.02-7.409C23.07 14.618 24 12.57 24 10.304z"/></svg>
+    LINE 立即諮詢
+  </a>
+</nav>
+
+<div class="hero">
+  <div class="hero-tag">▸ 知識專欄</div>
+  <h1>移工引進必知資訊</h1>
+  <p>整理最新政策法規與實務經驗，幫助雇主掌握正確資訊，安心合法用工。</p>
+</div>
+
+<div class="filter-bar">
+  <button class="filter-btn active" onclick="filter('all',this)">全部文章</button>
+  <button class="filter-btn" onclick="filter('農業外勞',this)">農業外勞</button>
+  <button class="filter-btn" onclick="filter('看護工',this)">看護工</button>
+  <button class="filter-btn" onclick="filter('廠工',this)">製造業廠工</button>
+  <button class="filter-btn" onclick="filter('法規政策',this)">法規政策</button>
+  <button class="filter-btn" onclick="filter('常見問題',this)">常見問題</button>
+  <button class="filter-btn" onclick="filter('跨國比較',this)">跨國比較</button>
+</div>
+
+<div class="articles-section">
+  <div class="articles-grid" id="grid">
+
+    <a class="article-card" href="Article1.html" data-cat="農業外勞">
+      <div class="article-banner"></div>
+      <div class="article-body">
+        <div class="article-cat">▸ 農業外勞</div>
+        <h3>2026年農業移工申請資格完整說明</h3>
+        <p>農業引進外籍勞工需符合哪些條件？土地面積、雇主資格、作物類型一次搞清楚。</p>
+        <div class="article-meta">
+          <span>📅 2026年5月更新 · 5分鐘</span>
+          <span class="read-more">閱讀更多 →</span>
+        </div>
+      </div>
+    </a>
+
+    <a class="article-card" href="Article2.html" data-cat="看護工">
+      <div class="article-banner"></div>
+      <div class="article-body">
+        <div class="article-cat">▸ 看護工</div>
+        <h3>申請外籍看護工需要哪些證明文件？</h3>
+        <p>詳細列出被看護者的失能評估、醫療證明、雇主身份文件等必備資料，避免補件耽誤時程。</p>
+        <div class="article-meta">
+          <span>📅 2026年5月更新 · 6分鐘</span>
+          <span class="read-more">閱讀更多 →</span>
+        </div>
+      </div>
+    </a>
+
+    <a class="article-card" href="Article3.html" data-cat="法規政策">
+      <div class="article-banner"></div>
+      <div class="article-body">
+        <div class="article-cat">▸ 法規政策</div>
+        <h3>移工薪資、假期、住宿規定最新整理</h3>
+        <p>雇主必知的勞動基準，包含基本薪資調整、休假制度、住宿費用上限等重要規定。</p>
+        <div class="article-meta">
+          <span>📅 2026年5月更新 · 7分鐘</span>
+          <span class="read-more">閱讀更多 →</span>
+        </div>
+      </div>
+    </a>
+
+    <a class="article-card" href="Article4.html" data-cat="廠工">
+      <div class="article-banner"></div>
+      <div class="article-body">
+        <div class="article-cat">▸ 廠工</div>
+        <h3>製造業移工名額申請流程與限制說明</h3>
+        <p>工廠規模、本勞比例、行業別限制，製造業雇主在引進移工前最需要了解的眉角。</p>
+        <div class="article-meta">
+          <span>📅 2026年5月更新 · 5分鐘</span>
+          <span class="read-more">閱讀更多 →</span>
+        </div>
+      </div>
+    </a>
+
+    <a class="article-card" href="Article5.html" data-cat="常見問題">
+      <div class="article-banner"></div>
+      <div class="article-body">
+        <div class="article-cat">▸ 常見問題</div>
+        <h3>移工逃跑怎麼辦？雇主責任與通報程序</h3>
+        <p>遇到移工失聯不需慌張，正確的通報流程、雇主的法律責任與後續處理方式一次說明。</p>
+        <div class="article-meta">
+          <span>📅 2026年5月更新 · 4分鐘</span>
+          <span class="read-more">閱讀更多 →</span>
+        </div>
+      </div>
+    </a>
+
+    <a class="article-card" href="Article6.html" data-cat="跨國比較">
+      <div class="article-banner"></div>
+      <div class="article-body">
+        <div class="article-cat">▸ 跨國比較</div>
+        <h3>印尼、越南、菲律賓、泰國移工特性比較</h3>
+        <p>各國移工的文化背景、工作習性、溝通方式大不同，選對國籍讓合作更順暢。</p>
+        <div class="article-meta">
+          <span>📅 2026年5月更新 · 8分鐘</span>
+          <span class="read-more">閱讀更多 →</span>
+        </div>
+      </div>
+    </a>
+
+  </div>
+</div>
+
+<div class="cta-bar">
+  <h2>還有其他問題？</h2>
+  <p>陳柏宏提供免費諮詢，協助您評估申請資格與規劃引進方案</p>
+  <div class="cta-btns">
+    <a href="tel:0981399215" class="btn-gold">📞 0981-399-215</a>
+    <a href="https://page.line.me/802rcpwh" class="btn-line" target="_blank">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M24 10.304C24 4.613 18.627 0 12 0S0 4.613 0 10.304c0 5.099 4.523 9.368 10.632 10.177.414.089.978.273 1.12.627.129.323.084.828.041 1.154l-.181 1.086c-.055.323-.256 1.263 1.107.688 1.362-.574 7.346-4.326 10.02-7.409C23.07 14.618 24 12.57 24 10.304z"/></svg>
+      LINE 立即諮詢
+    </a>
+  </div>
+</div>
+
+<footer>© 2026 陳柏宏移工仲介服務 版權所有</footer>
+
+<a href="https://page.line.me/802rcpwh" class="float-line" target="_blank">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M24 10.304C24 4.613 18.627 0 12 0S0 4.613 0 10.304c0 5.099 4.523 9.368 10.632 10.177.414.089.978.273 1.12.627.129.323.084.828.041 1.154l-.181 1.086c-.055.323-.256 1.263 1.107.688 1.362-.574 7.346-4.326 10.02-7.409C23.07 14.618 24 12.57 24 10.304z"/></svg>
+  <span class="float-line-label">LINE</span>
+</a>
+
+<script>
+function filter(cat, btn) {
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll('.article-card').forEach(card => {
+    if (cat === 'all' || card.dataset.cat === cat) {
+      card.style.display = 'block';
+    } else {
+      card.style.display = 'none';
+    }
+  });
+}
+</script>
+</body>
+</html>
