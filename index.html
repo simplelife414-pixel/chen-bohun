@@ -403,6 +403,28 @@
     .nav-links { display: none; }
     .hero-stats { gap: 1.5rem; }
     .process-steps::before { display: none; }
+
+    .hero { padding: 90px 5vw 50px; }
+    .hero h1 { font-size: 1.8rem; }
+    .hero-sub { font-size: 0.9rem; }
+    .hero-btns { flex-direction: column; gap: 0.8rem; }
+    .btn-primary, .btn-outline { text-align: center; padding: 13px 20px; width: 100%; box-sizing: border-box; }
+
+    .services-grid { grid-template-columns: 1fr; }
+    .articles-grid { grid-template-columns: 1fr; }
+    .booking-layout { grid-template-columns: 1fr; gap: 2rem; }
+    .contact-strip { flex-direction: column; text-align: center; }
+    .contact-btns { justify-content: center; }
+    .footer-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+    .footer-bottom { flex-direction: column; text-align: center; }
+    .process-steps { grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+
+    #about > div {
+      display: block !important;
+    }
+    #about > div > div:first-child {
+      margin-bottom: 2rem;
+    }
   }
 </style>
 </head>
@@ -683,7 +705,7 @@
         <label>備註說明</label>
         <textarea placeholder="請簡述您的需求或問題，例如：農場種類、被看護者狀況等..."></textarea>
       </div>
-      <button class="submit-btn" onclick="alert('感謝您的預約！陳柏宏將於一個工作天內與您聯繫。')">
+      <button class="submit-btn" onclick="window.location.href='mailto:w46994699@gmail.com?subject=移工仲介預約諮詢&body=姓名：%0A電話：%0A服務需求：%0A備註：'">
         送出預約申請 →
       </button>
     </div>
