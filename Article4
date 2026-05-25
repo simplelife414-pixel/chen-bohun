@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>製造業移工名額申請流程與限制說明 | 陳柏宏移工仲介</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600;700&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--green-dark:#1a4a2e;--green-mid:#2d7a4f;--green-light:#4aad6f;--green-pale:#e8f5ee;--gold:#c9a53a;--gold-light:#f0d987;--warm-white:#fdfaf5;--line-green:#06c755}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Sans TC',sans-serif;background:var(--warm-white);color:#1c1c1c}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(26,74,46,0.97);display:flex;align-items:center;justify-content:space-between;padding:0 6vw;height:64px;box-shadow:0 2px 20px rgba(0,0,0,0.25)}
+.nav-logo{font-family:'Noto Serif TC',serif;font-size:1.1rem;font-weight:700;color:var(--gold-light);text-decoration:none}
+.nav-logo span{color:#fff;font-weight:400}
+.nav-back{color:rgba(255,255,255,0.8);text-decoration:none;font-size:0.85rem}
+.hero-article{background:linear-gradient(160deg,rgba(26,74,46,0.95),rgba(10,28,18,0.98));padding:120px 6vw 60px;color:#fff}
+.article-cat-top{font-size:0.75rem;letter-spacing:0.12em;font-weight:700;color:var(--gold-light);margin-bottom:1rem}
+.hero-article h1{font-family:'Noto Serif TC',serif;font-size:clamp(1.6rem,3.5vw,2.4rem);font-weight:700;line-height:1.35;margin-bottom:1rem;max-width:750px}
+.article-info{display:flex;gap:1.5rem;font-size:0.8rem;color:rgba(255,255,255,0.6);flex-wrap:wrap}
+.content-wrap{max-width:780px;margin:0 auto;padding:60px 6vw 80px}
+.content-wrap h2{font-family:'Noto Serif TC',serif;font-size:1.35rem;font-weight:700;color:var(--green-dark);margin:2.5rem 0 1rem;padding-left:14px;border-left:4px solid var(--green-light)}
+.content-wrap h3{font-size:1.05rem;font-weight:700;color:var(--green-mid);margin:1.8rem 0 0.7rem}
+.content-wrap p{font-size:0.95rem;line-height:1.95;color:#333;margin-bottom:1rem}
+.content-wrap ul,ol{padding-left:1.4rem;margin-bottom:1.2rem}
+.content-wrap li{font-size:0.95rem;line-height:1.85;color:#333;margin-bottom:0.4rem}
+.tip-box{background:var(--green-pale);border-left:4px solid var(--green-mid);border-radius:0 8px 8px 0;padding:1.2rem 1.5rem;margin:1.8rem 0}
+.tip-box strong{color:var(--green-dark);display:block;margin-bottom:0.4rem;font-size:0.9rem}
+.tip-box p{margin:0;font-size:0.88rem;color:#444}
+.warn-box{background:#fff8e6;border-left:4px solid var(--gold);border-radius:0 8px 8px 0;padding:1.2rem 1.5rem;margin:1.8rem 0}
+.warn-box strong{color:#7a5a00;display:block;margin-bottom:0.4rem;font-size:0.9rem}
+.warn-box p{margin:0;font-size:0.88rem;color:#555}
+table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:0.88rem}
+th{background:var(--green-dark);color:#fff;padding:10px 14px;text-align:left;font-weight:600}
+td{padding:9px 14px;border-bottom:1px solid #e0ddd6;color:#333}
+tr:nth-child(even) td{background:#f7f4ef}
+.cta-section{background:var(--green-dark);border-radius:12px;padding:2.5rem;text-align:center;margin-top:3rem}
+.cta-section h3{font-family:'Noto Serif TC',serif;font-size:1.3rem;color:#fff;margin-bottom:0.6rem}
+.cta-section p{color:rgba(255,255,255,0.65);font-size:0.88rem;margin-bottom:1.5rem}
+.cta-btns{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap}
+.btn-gold{background:var(--gold);color:var(--green-dark);padding:12px 26px;border-radius:4px;font-weight:700;text-decoration:none;font-size:0.92rem}
+.btn-line{background:var(--line-green);color:#fff;padding:12px 26px;border-radius:4px;font-weight:700;text-decoration:none;font-size:0.92rem;display:inline-flex;align-items:center;gap:8px}
+.back-link{display:inline-flex;align-items:center;gap:6px;color:var(--green-mid);text-decoration:none;font-size:0.85rem;font-weight:500;margin-bottom:2rem}
+.float-line{position:fixed;bottom:28px;right:28px;z-index:200;background:var(--line-green);width:60px;height:60px;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(6,199,85,0.5);text-decoration:none}
+.float-line-label{font-size:0.55rem;color:#fff;font-weight:700;margin-top:1px}
+footer{background:#111810;padding:32px 6vw;color:rgba(255,255,255,0.45);font-size:0.8rem;text-align:center}
+</style>
+</head>
+<body>
+<nav>
+  <a href="index.html" class="nav-logo">陳柏宏 <span>移工仲介服務</span></a>
+  <a href="index.html#knowledge" class="nav-back">← 返回知識專欄</a>
+</nav>
+<div class="hero-article">
+  <div class="article-cat-top">▸ 廠工</div>
+  <h1>製造業移工名額申請流程與限制說明</h1>
+  <div class="article-info"><span>📅 2026年5月更新</span><span>⏱ 閱讀時間約5分鐘</span><span>✍️ 陳柏宏</span></div>
+</div>
+<div class="content-wrap">
+  <a href="index.html#knowledge" class="back-link">← 返回知識專欄</a>
+  <p>製造業是台灣引進移工人數最多的產業類別。但製造業移工的申請有嚴格的比例限制與行業別規定，工廠主在申請前必須先了解自己的資格與名額上限。</p>
+
+  <h2>一、製造業移工申請基本條件</h2>
+  <ul>
+    <li>工廠須依法辦理工廠登記，並取得合法工廠登記證</li>
+    <li>雇用本國勞工人數達一定規模（通常為5人以上）</li>
+    <li>無違反勞動法規之不良紀錄</li>
+    <li>工廠實際從事製造業生產活動</li>
+    <li>繳清勞健保費及稅款</li>
+  </ul>
+
+  <h2>二、本外勞比例限制</h2>
+  <p>製造業移工的引進人數受「本外勞比例」嚴格限制，即移工人數不得超過本國勞工人數的一定比例：</p>
+  <table>
+    <tr><th>本國勞工人數</th><th>可申請移工比例</th><th>最高名額</th></tr>
+    <tr><td>5～10人</td><td>最高40%</td><td>約4人</td></tr>
+    <tr><td>11～30人</td><td>最高35%</td><td>約10人</td></tr>
+    <tr><td>31～100人</td><td>最高25%</td><td>約25人</td></tr>
+    <tr><td>100人以上</td><td>最高20%</td><td>依實際比例</td></tr>
+  </table>
+  <div class="tip-box">
+    <strong>💡 特殊產業可申請較高比例</strong>
+    <p>部分被認定為缺工嚴重的特定製造業（如電路板、鑄造業），可申請較高的移工比例，最高可達40%以上，需個別向勞動部申請認定。</p>
+  </div>
+
+  <h2>三、申請流程說明</h2>
+  <ol>
+    <li><strong>確認資格</strong>：確認工廠登記、本勞人數及比例名額</li>
+    <li><strong>向勞動部申請招募許可</strong>：提交申請書及相關文件</li>
+    <li><strong>等待審核</strong>：約2至4週</li>
+    <li><strong>選工</strong>：至指定國家選擇適合工人</li>
+    <li><strong>辦理入境</strong>：申請工作簽證及居留許可</li>
+    <li><strong>健康檢查</strong>：移工抵台後需進行健檢</li>
+    <li><strong>到職上工</strong>：簽訂勞動契約，正式上班</li>
+  </ol>
+
+  <h2>四、可引進移工的國家</h2>
+  <p>台灣製造業移工主要來源國為：越南、印尼、菲律賓、泰國。各國移工在語言能力、技術背景及文化習性上有所差異，建議依工作需求選擇適合的來源國。</p>
+
+  <h2>五、常見申請限制與注意事項</h2>
+  <ul>
+    <li>工廠不得將移工外借或轉讓給其他雇主使用</li>
+    <li>移工只能從事核定的工作類別，不可指派從事其他工作</li>
+    <li>工廠若解僱本國勞工，相應的移工名額也需同步縮減</li>
+    <li>移工合約期滿可續約，最長居留時間依規定為12至14年</li>
+  </ul>
+  <div class="warn-box">
+    <strong>⚠️ 非法仲介風險</strong>
+    <p>坊間有不合法仲介以低價吸引雇主，但可能造成移工被剝削、雇主被開罰等嚴重後果。請務必選擇合法立案的仲介機構辦理。</p>
+  </div>
+
+  <div class="cta-section">
+    <h3>想了解您的工廠可申請幾個名額？</h3>
+    <p>提供本勞人數，陳柏宏幫您計算可申請上限並規劃引進方案</p>
+    <div class="cta-btns">
+      <a href="tel:0981399215" class="btn-gold">📞 0981-399-215</a>
+      <a href="https://line.me/ti/p/~your-line-id" class="btn-line" target="_blank">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M24 10.304C24 4.613 18.627 0 12 0S0 4.613 0 10.304c0 5.099 4.523 9.368 10.632 10.177.414.089.978.273 1.12.627.129.323.084.828.041 1.154l-.181 1.086c-.055.323-.256 1.263 1.107.688 1.362-.574 7.346-4.326 10.02-7.409C23.07 14.618 24 12.57 24 10.304z"/></svg>
+        LINE 立即諮詢
+      </a>
+    </div>
+  </div>
+</div>
+<footer>© 2026 陳柏宏移工仲介服務 版權所有</footer>
+<a href="https://line.me/ti/p/~your-line-id" class="float-line" target="_blank">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M24 10.304C24 4.613 18.627 0 12 0S0 4.613 0 10.304c0 5.099 4.523 9.368 10.632 10.177.414.089.978.273 1.12.627.129.323.084.828.041 1.154l-.181 1.086c-.055.323-.256 1.263 1.107.688 1.362-.574 7.346-4.326 10.02-7.409C23.07 14.618 24 12.57 24 10.304z"/></svg>
+  <span class="float-line-label">LINE</span>
+</a>
+</body>
+</html>
