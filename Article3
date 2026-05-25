@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>移工薪資、假期、住宿規定最新整理 | 陳柏宏移工仲介</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600;700&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--green-dark:#1a4a2e;--green-mid:#2d7a4f;--green-light:#4aad6f;--green-pale:#e8f5ee;--gold:#c9a53a;--gold-light:#f0d987;--warm-white:#fdfaf5;--line-green:#06c755}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Sans TC',sans-serif;background:var(--warm-white);color:#1c1c1c}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(26,74,46,0.97);display:flex;align-items:center;justify-content:space-between;padding:0 6vw;height:64px;box-shadow:0 2px 20px rgba(0,0,0,0.25)}
+.nav-logo{font-family:'Noto Serif TC',serif;font-size:1.1rem;font-weight:700;color:var(--gold-light);text-decoration:none}
+.nav-logo span{color:#fff;font-weight:400}
+.nav-back{color:rgba(255,255,255,0.8);text-decoration:none;font-size:0.85rem}
+.nav-back:hover{color:var(--gold-light)}
+.hero-article{background:linear-gradient(160deg,rgba(26,74,46,0.95),rgba(10,28,18,0.98));padding:120px 6vw 60px;color:#fff}
+.article-cat-top{font-size:0.75rem;letter-spacing:0.12em;font-weight:700;color:var(--gold-light);margin-bottom:1rem}
+.hero-article h1{font-family:'Noto Serif TC',serif;font-size:clamp(1.6rem,3.5vw,2.4rem);font-weight:700;line-height:1.35;margin-bottom:1rem;max-width:750px}
+.article-info{display:flex;gap:1.5rem;font-size:0.8rem;color:rgba(255,255,255,0.6);flex-wrap:wrap}
+.content-wrap{max-width:780px;margin:0 auto;padding:60px 6vw 80px}
+.content-wrap h2{font-family:'Noto Serif TC',serif;font-size:1.35rem;font-weight:700;color:var(--green-dark);margin:2.5rem 0 1rem;padding-left:14px;border-left:4px solid var(--green-light)}
+.content-wrap h3{font-size:1.05rem;font-weight:700;color:var(--green-mid);margin:1.8rem 0 0.7rem}
+.content-wrap p{font-size:0.95rem;line-height:1.95;color:#333;margin-bottom:1rem}
+.content-wrap ul,ol{padding-left:1.4rem;margin-bottom:1.2rem}
+.content-wrap li{font-size:0.95rem;line-height:1.85;color:#333;margin-bottom:0.4rem}
+.tip-box{background:var(--green-pale);border-left:4px solid var(--green-mid);border-radius:0 8px 8px 0;padding:1.2rem 1.5rem;margin:1.8rem 0}
+.tip-box strong{color:var(--green-dark);display:block;margin-bottom:0.4rem;font-size:0.9rem}
+.tip-box p{margin:0;font-size:0.88rem;color:#444}
+.warn-box{background:#fff8e6;border-left:4px solid var(--gold);border-radius:0 8px 8px 0;padding:1.2rem 1.5rem;margin:1.8rem 0}
+.warn-box strong{color:#7a5a00;display:block;margin-bottom:0.4rem;font-size:0.9rem}
+.warn-box p{margin:0;font-size:0.88rem;color:#555}
+table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:0.88rem}
+th{background:var(--green-dark);color:#fff;padding:10px 14px;text-align:left;font-weight:600}
+td{padding:9px 14px;border-bottom:1px solid #e0ddd6;color:#333}
+tr:nth-child(even) td{background:#f7f4ef}
+.cta-section{background:var(--green-dark);border-radius:12px;padding:2.5rem;text-align:center;margin-top:3rem}
+.cta-section h3{font-family:'Noto Serif TC',serif;font-size:1.3rem;color:#fff;margin-bottom:0.6rem}
+.cta-section p{color:rgba(255,255,255,0.65);font-size:0.88rem;margin-bottom:1.5rem}
+.cta-btns{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap}
+.btn-gold{background:var(--gold);color:var(--green-dark);padding:12px 26px;border-radius:4px;font-weight:700;text-decoration:none;font-size:0.92rem}
+.btn-line{background:var(--line-green);color:#fff;padding:12px 26px;border-radius:4px;font-weight:700;text-decoration:none;font-size:0.92rem;display:inline-flex;align-items:center;gap:8px}
+.back-link{display:inline-flex;align-items:center;gap:6px;color:var(--green-mid);text-decoration:none;font-size:0.85rem;font-weight:500;margin-bottom:2rem}
+.float-line{position:fixed;bottom:28px;right:28px;z-index:200;background:var(--line-green);width:60px;height:60px;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(6,199,85,0.5);text-decoration:none}
+.float-line-label{font-size:0.55rem;color:#fff;font-weight:700;margin-top:1px}
+footer{background:#111810;padding:32px 6vw;color:rgba(255,255,255,0.45);font-size:0.8rem;text-align:center}
+</style>
+</head>
+<body>
+<nav>
+  <a href="index.html" class="nav-logo">陳柏宏 <span>移工仲介服務</span></a>
+  <a href="index.html#knowledge" class="nav-back">← 返回知識專欄</a>
+</nav>
+<div class="hero-article">
+  <div class="article-cat-top">▸ 法規政策</div>
+  <h1>移工薪資、假期、住宿規定最新整理</h1>
+  <div class="article-info"><span>📅 2026年5月更新</span><span>⏱ 閱讀時間約7分鐘</span><span>✍️ 陳柏宏</span></div>
+</div>
+<div class="content-wrap">
+  <a href="index.html#knowledge" class="back-link">← 返回知識專欄</a>
+  <p>引進移工之後，雇主必須依照《就業服務法》及《勞動基準法》相關規定，保障移工的基本勞動權益。本文整理2026年最新的薪資、假期與住宿規定，幫助雇主避免違規。</p>
+
+  <h2>一、薪資規定</h2>
+  <h3>基本工資</h3>
+  <p>2026年台灣基本工資為每月新台幣28,590元（依勞動部最新公告為準），雇主給付移工的薪資不得低於此標準。</p>
+  <table>
+    <tr><th>項目</th><th>規定</th></tr>
+    <tr><td>月薪最低標準</td><td>28,590元（2026年）</td></tr>
+    <tr><td>發薪日</td><td>每月固定日期，不得拖延</td></tr>
+    <tr><td>發薪方式</td><td>建議匯入移工本人帳戶</td></tr>
+    <tr><td>扣薪限制</td><td>不得任意扣薪，扣款需有書面同意</td></tr>
+  </table>
+  <div class="warn-box">
+    <strong>⚠️ 禁止非法扣薪</strong>
+    <p>雇主不得以「訓練費」、「介紹費」等名義扣除移工薪資。仲介費用應由雇主負擔，不可轉嫁給移工。</p>
+  </div>
+
+  <h2>二、工時與加班規定</h2>
+  <ul>
+    <li>正常工時：每日不超過8小時，每週不超過40小時</li>
+    <li>加班：需移工同意，每日加班不超過4小時</li>
+    <li>加班費：平日加班前2小時為平均工資1.33倍，再延長為1.67倍</li>
+    <li>假日加班：休假日出勤應給付2倍工資</li>
+    <li>看護工：依特殊規定，工時計算方式略有不同</li>
+  </ul>
+
+  <h2>三、假期規定</h2>
+  <table>
+    <tr><th>假別</th><th>規定</th></tr>
+    <tr><td>例假日</td><td>每7日至少1日例假，不得要求出勤</td></tr>
+    <tr><td>休假日</td><td>每7日另有1日休假日</td></tr>
+    <tr><td>國定假日</td><td>依政府公告放假，共12天</td></tr>
+    <tr><td>特休假</td><td>滿6個月3天，滿1年7天，依年資累計</td></tr>
+    <tr><td>病假</td><td>每年30天，半薪</td></tr>
+  </table>
+  <div class="tip-box">
+    <strong>💡 看護工特殊規定</strong>
+    <p>居家看護工因其工作性質特殊，假期安排可與雇主協商，但每月至少須給予4天休假，且不得強制移工放棄休假權利。</p>
+  </div>
+
+  <h2>四、住宿規定</h2>
+  <p>雇主若提供移工住宿，必須符合以下標準：</p>
+  <ul>
+    <li>每人居住面積不得低於3.6平方公尺</li>
+    <li>須有獨立或共用衛浴設備，保持清潔衛生</li>
+    <li>須有適當通風、採光及隔熱設施</li>
+    <li>不得將移工安置於危險或不適居住的場所（如工廠角落、倉庫）</li>
+    <li>住宿費用上限：每月不超過2,000元（依規定調整）</li>
+    <li>膳食費用：如提供三餐，每日不超過100元可扣款</li>
+  </ul>
+  <div class="warn-box">
+    <strong>⚠️ 住宿費扣款需書面同意</strong>
+    <p>雇主欲扣除住宿或膳食費用，必須事先取得移工書面同意，並在勞動契約中載明，不可單方面扣除。</p>
+  </div>
+
+  <h2>五、健康保險義務</h2>
+  <p>移工抵台後，雇主必須為其投保全民健康保險及勞工保險，費用由雇主與移工依比例分擔。移工的勞保投保薪資不得低於實際薪資。</p>
+
+  <div class="cta-section">
+    <h3>勞動法規疑問？歡迎諮詢</h3>
+    <p>陳柏宏協助雇主了解法規，避免因不了解規定而受罰</p>
+    <div class="cta-btns">
+      <a href="tel:0981399215" class="btn-gold">📞 0981-399-215</a>
+      <a href="https://line.me/ti/p/~your-line-id" class="btn-line" target="_blank">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M24 10.304C24 4.613 18.627 0 12 0S0 4.613 0 10.304c0 5.099 4.523 9.368 10.632 10.177.414.089.978.273 1.12.627.129.323.084.828.041 1.154l-.181 1.086c-.055.323-.256 1.263 1.107.688 1.362-.574 7.346-4.326 10.02-7.409C23.07 14.618 24 12.57 24 10.304z"/></svg>
+        LINE 立即諮詢
+      </a>
+    </div>
+  </div>
+</div>
+<footer>© 2026 陳柏宏移工仲介服務 版權所有</footer>
+<a href="https://line.me/ti/p/~your-line-id" class="float-line" target="_blank">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M24 10.304C24 4.613 18.627 0 12 0S0 4.613 0 10.304c0 5.099 4.523 9.368 10.632 10.177.414.089.978.273 1.12.627.129.323.084.828.041 1.154l-.181 1.086c-.055.323-.256 1.263 1.107.688 1.362-.574 7.346-4.326 10.02-7.409C23.07 14.618 24 12.57 24 10.304z"/></svg>
+  <span class="float-line-label">LINE</span>
+</a>
+</body>
+</html>
