@@ -53,8 +53,8 @@
   }
   .hero-visual {
     flex-shrink: 0;
-    width: 420px;
-    opacity: 0.9;
+    width: 520px;
+    opacity: 0.95;
     animation: float 6s ease-in-out infinite;
   }
   .hero-svg { width: 100%; height: auto; }
@@ -438,6 +438,10 @@
     .hero { padding: 90px 5vw 50px; }
     .hero-layout { flex-direction: column; }
     .hero-visual { display: none; }
+    .hero-content { max-width: 100%; }
+    .hero-badge { font-size: 0.7rem; white-space: normal; }
+    .hero h1 { font-size: clamp(1.6rem, 8vw, 2.2rem); }
+    .hero-sub { font-size: 0.88rem; }
     .hero h1 { font-size: 1.8rem; }
     .hero-sub { font-size: 0.9rem; }
     .hero-btns { flex-direction: column; gap: 0.8rem; }
@@ -533,18 +537,18 @@
       <!-- 外圍三個服務圓圈 -->
       <!-- 農業 -->
       <circle cx="240" cy="68" r="38" fill="rgba(26,74,46,0.5)" stroke="rgba(74,173,111,0.4)" stroke-width="1.5"/>
-      <text x="240" y="62" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="20">🌾</text>
-      <text x="240" y="78" text-anchor="middle" fill="rgba(255,255,255,0.65)" font-size="9" font-family="Noto Sans TC,sans-serif">農業外勞</text>
+      <text x="240" y="62" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="26">🌾</text>
+      <text x="240" y="78" text-anchor="middle" fill="rgba(255,255,255,0.65)" font-size="12" font-family="Noto Sans TC,sans-serif">農業外勞</text>
 
       <!-- 看護 -->
       <circle cx="390" cy="318" r="38" fill="rgba(26,74,46,0.5)" stroke="rgba(74,173,111,0.4)" stroke-width="1.5"/>
-      <text x="390" y="312" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="20">🏥</text>
-      <text x="390" y="328" text-anchor="middle" fill="rgba(255,255,255,0.65)" font-size="9" font-family="Noto Sans TC,sans-serif">看護工</text>
+      <text x="390" y="312" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="26">🏥</text>
+      <text x="390" y="328" text-anchor="middle" fill="rgba(255,255,255,0.65)" font-size="12" font-family="Noto Sans TC,sans-serif">看護工</text>
 
       <!-- 廠工 -->
       <circle cx="90" cy="318" r="38" fill="rgba(26,74,46,0.5)" stroke="rgba(74,173,111,0.4)" stroke-width="1.5"/>
-      <text x="90" y="312" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="20">🏭</text>
-      <text x="90" y="328" text-anchor="middle" fill="rgba(255,255,255,0.65)" font-size="9" font-family="Noto Sans TC,sans-serif">製造業廠工</text>
+      <text x="90" y="312" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="26">🏭</text>
+      <text x="90" y="328" text-anchor="middle" fill="rgba(255,255,255,0.65)" font-size="12" font-family="Noto Sans TC,sans-serif">製造業廠工</text>
 
       <!-- 連接線 -->
       <line x1="240" y1="106" x2="240" y2="168" stroke="rgba(74,173,111,0.25)" stroke-width="1.5" stroke-dasharray="4,3"/>
