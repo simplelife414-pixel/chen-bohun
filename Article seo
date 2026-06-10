@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>桃園外勞仲介推薦｜農業、看護、廠工引進找陳柏宏</title>
+<meta name="description" content="桃園在地外勞仲介陳柏宏，專業服務農業外勞、看護工、製造業廠工引進，在地服務10年，500+成功案件，免費諮詢0981-399-215。">
+<meta name="keywords" content="桃園外勞仲介,桃園移工仲介,桃園看護工,桃園農業外勞,桃園廠工,外勞仲介推薦,陳柏宏仲介,移工引進,看護工申請">
+<meta property="og:title" content="桃園外勞仲介推薦｜農業、看護、廠工引進找陳柏宏">
+<meta property="og:description" content="桃園在地外勞仲介陳柏宏，專業服務農業外勞、看護工、製造業廠工引進，在地服務10年，500+成功案件。">
+<meta property="og:url" content="https://chenbohung.com/article-seo.html">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600;700&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--green-dark:#1a4a2e;--green-mid:#2d7a4f;--green-light:#4aad6f;--green-pale:#e8f5ee;--gold:#c9a53a;--gold-light:#f0d987;--warm-white:#fdfaf5;--line-green:#06c755}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Sans TC',sans-serif;background:var(--warm-white);color:#1c1c1c}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(26,74,46,0.97);display:flex;align-items:center;justify-content:space-between;padding:0 6vw;height:64px;box-shadow:0 2px 20px rgba(0,0,0,0.25)}
+.nav-logo{font-family:'Noto Serif TC',serif;font-size:1.1rem;font-weight:700;color:var(--gold-light);text-decoration:none}
+.nav-logo span{color:#fff;font-weight:400}
+.nav-back{color:rgba(255,255,255,0.8);text-decoration:none;font-size:0.85rem;display:flex;align-items:center;gap:6px}
+.nav-back:hover{color:var(--gold-light)}
+.hero-article{background:linear-gradient(160deg,rgba(26,74,46,0.95),rgba(10,28,18,0.98));padding:120px 6vw 60px;color:#fff}
+.article-cat-top{font-size:0.75rem;letter-spacing:0.12em;font-weight:700;color:var(--gold-light);margin-bottom:1rem}
+.hero-article h1{font-family:'Noto Serif TC',serif;font-size:clamp(1.6rem,3.5vw,2.4rem);font-weight:700;line-height:1.35;margin-bottom:1rem;max-width:750px}
+.article-info{display:flex;gap:1.5rem;font-size:0.8rem;color:rgba(255,255,255,0.6);flex-wrap:wrap}
+.content-wrap{max-width:780px;margin:0 auto;padding:60px 6vw 80px}
+.content-wrap h2{font-family:'Noto Serif TC',serif;font-size:1.35rem;font-weight:700;color:var(--green-dark);margin:2.5rem 0 1rem;padding-left:14px;border-left:4px solid var(--green-light)}
+.content-wrap h3{font-size:1.05rem;font-weight:700;color:var(--green-mid);margin:1.8rem 0 0.7rem}
+.content-wrap p{font-size:0.95rem;line-height:1.95;color:#333;margin-bottom:1rem}
+.content-wrap ul{padding-left:1.4rem;margin-bottom:1.2rem}
+.content-wrap li{font-size:0.95rem;line-height:1.85;color:#333;margin-bottom:0.4rem}
+.tip-box{background:var(--green-pale);border-left:4px solid var(--green-mid);border-radius:0 8px 8px 0;padding:1.2rem 1.5rem;margin:1.8rem 0}
+.tip-box strong{color:var(--green-dark);display:block;margin-bottom:0.4rem;font-size:0.9rem}
+.tip-box p{margin:0;font-size:0.88rem;color:#444}
+.service-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin:1.5rem 0}
+.service-card-sm{background:#fff;border:1px solid #e0ddd6;border-radius:8px;padding:1.2rem;border-top:3px solid var(--green-mid);text-align:center}
+.service-card-sm .icon{font-size:1.8rem;margin-bottom:0.5rem}
+.service-card-sm h4{font-size:0.9rem;font-weight:700;color:var(--green-dark);margin-bottom:0.3rem}
+.service-card-sm p{font-size:0.8rem;color:#777;margin:0}
+.stats-row{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin:1.5rem 0}
+.stat-box{background:var(--green-dark);border-radius:8px;padding:1.2rem;text-align:center}
+.stat-box .num{font-family:'Noto Serif TC',serif;font-size:1.8rem;font-weight:700;color:var(--gold-light)}
+.stat-box .label{font-size:0.78rem;color:rgba(255,255,255,0.65);margin-top:0.2rem}
+.cta-section{background:var(--green-dark);border-radius:12px;padding:2.5rem;text-align:center;margin-top:3rem}
+.cta-section h3{font-family:'Noto Serif TC',serif;font-size:1.3rem;color:#fff;margin-bottom:0.6rem}
+.cta-section p{color:rgba(255,255,255,0.65);font-size:0.88rem;margin-bottom:1.5rem}
+.cta-btns{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap}
+.btn-gold{background:var(--gold);color:var(--green-dark);padding:12px 26px;border-radius:4px;font-weight:700;text-decoration:none;font-size:0.92rem;transition:background 0.2s}
+.btn-gold:hover{background:var(--gold-light)}
+.btn-line{background:var(--line-green);color:#fff;padding:12px 26px;border-radius:4px;font-weight:700;text-decoration:none;font-size:0.92rem;display:inline-flex;align-items:center;gap:8px}
+.btn-home{background:transparent;color:var(--green-mid);border:2px solid var(--green-mid);padding:12px 26px;border-radius:4px;font-weight:700;text-decoration:none;font-size:0.92rem;transition:all 0.2s}
+.btn-home:hover{background:var(--green-mid);color:#fff}
+.back-link{display:inline-flex;align-items:center;gap:6px;color:var(--green-mid);text-decoration:none;font-size:0.85rem;font-weight:500;margin-bottom:2rem}
+.home-banner{background:var(--green-pale);border:1px solid rgba(45,122,79,0.2);border-radius:10px;padding:1.5rem 2rem;margin:2.5rem 0;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem}
+.home-banner p{font-size:0.9rem;color:var(--green-dark);font-weight:500}
+.float-line{position:fixed;bottom:28px;right:28px;z-index:200;background:var(--line-green);width:60px;height:60px;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(6,199,85,0.5);text-decoration:none;transition:transform 0.2s}
+.float-line:hover{transform:scale(1.1)}
+.float-line-label{font-size:0.55rem;color:#fff;font-weight:700;margin-top:1px}
+footer{background:#111810;padding:32px 6vw;color:rgba(255,255,255,0.45);font-size:0.8rem;text-align:center}
+@media(max-width:680px){.stats-row{grid-template-columns:1fr 1fr}.home-banner{flex-direction:column;text-align:center}}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">陳柏宏 <span>移工仲介服務</span></a>
+  <a href="index.html" class="nav-back">← 回首頁</a>
+</nav>
+
+<div class="hero-article">
+  <div class="article-cat-top">▸ 桃園外勞仲介推薦</div>
+  <h1>桃園外勞仲介推薦<br>農業、看護、廠工引進找陳柏宏</h1>
+  <div class="article-info">
+    <span>📅 2026年5月更新</span>
+    <span>📍 桃園在地服務</span>
+    <span>✍️ 陳柏宏</span>
+  </div>
+</div>
+
+<div class="content-wrap">
+  <a href="index.html" class="back-link">← 回首頁</a>
+
+  <p>您在桃園地區尋找合法、專業的外勞仲介服務嗎？陳柏宏移工仲介深耕桃園超過10年，專注農業外勞、居家看護工、製造業廠工三大領域，以在地化服務、透明收費、全程陪伴為核心，是桃園雇主引進移工的可靠選擇。</p>
+
+  <!-- 回首頁快速入口 -->
+  <div class="home-banner">
+    <p>🏠 想了解完整服務內容或立即預約諮詢？</p>
+    <a href="index.html" class="btn-home">前往陳柏宏官方網站 →</a>
+  </div>
+
+  <h2>一、為什麼桃園雇主需要引進外籍移工？</h2>
+  <p>桃園是台灣重要的工業與農業重鎮，擁有大量製造業工廠、農業用地及高齡照護需求。然而，本地勞動力長期短缺，許多雇主面臨人力不足的困境。引進合法外籍移工，是解決人力問題最有效的方式之一。</p>
+  <ul>
+    <li>桃園製造業聚集，廠工需求量大</li>
+    <li>桃園農業區域廣，農忙季節人力缺口明顯</li>
+    <li>桃園高齡人口持續增加，看護需求快速成長</li>
+    <li>本地年輕人不願從事勞力密集工作，缺工問題嚴峻</li>
+  </ul>
+
+  <h2>二、陳柏宏提供的三大服務</h2>
+  <div class="service-cards">
+    <div class="service-card-sm">
+      <div class="icon">🌾</div>
+      <h4>農業外勞</h4>
+      <p>農場、果園、養殖業，配合季節性需求</p>
+    </div>
+    <div class="service-card-sm">
+      <div class="icon">🏥</div>
+      <h4>看護工</h4>
+      <p>居家看護、老人照護、病患陪護</p>
+    </div>
+    <div class="service-card-sm">
+      <div class="icon">🏭</div>
+      <h4>製造業廠工</h4>
+      <p>電子、機械、食品加工各類工廠</p>
+    </div>
+  </div>
+
+  <h2>三、陳柏宏的服務特色</h2>
+  <div class="stats-row">
+    <div class="stat-box"><div class="num">10年</div><div class="label">桃園在地服務</div></div>
+    <div class="stat-box"><div class="num">500+</div><div class="label">成功媒合案件</div></div>
+    <div class="stat-box"><div class="num">98%</div><div class="label">客戶滿意度</div></div>
+  </div>
+
+  <h3>一對一親自服務</h3>
+  <p>陳柏宏堅持每位雇主都由本人親自服務，從初次諮詢、文件準備、選工面試到移工到職後的溝通協調，全程親力親為，絕不假手他人。</p>
+
+  <h3>費用透明，不亂收費</h3>
+  <p>所有費用項目清楚列明，以書面契約載明，雇主可安心了解每一分錢的用途。合法仲介費、政府規費、健檢費用一次說清楚。</p>
+
+  <h3>熟悉桃園在地資源</h3>
+  <p>深耕桃園超過10年，熟悉當地政府單位、醫療機構、勞動局等資源，遇到任何突發狀況都能快速處理，讓雇主省心省力。</p>
+
+  <div class="tip-box">
+    <strong>💡 桃園雇主專屬優惠</strong>
+    <p>桃園在地雇主首次諮詢完全免費，陳柏宏將親自評估您的申請資格，並提供最適合的移工引進方案建議。</p>
+  </div>
+
+  <h2>四、桃園引進移工常見問題</h2>
+
+  <h3>桃園農業移工怎麼申請？</h3>
+  <p>桃園農業移工申請需符合農地面積、農會會員等資格，陳柏宏可協助您確認資格並準備所有申請文件。詳細說明請參考<a href="Article1.html" style="color:var(--green-mid);font-weight:600;">農業移工申請資格完整說明</a>。</p>
+
+  <h3>桃園看護工申請需要哪些文件？</h3>
+  <p>申請看護工需要巴氏量表、診斷證明書、雇主財力證明等文件，陳柏宏提供文件清單確認服務，避免退件耽誤時程。詳細說明請參考<a href="Article2.html" style="color:var(--green-mid);font-weight:600;">看護工申請文件完整說明</a>。</p>
+
+  <h3>桃園工廠可以申請幾個移工名額？</h3>
+  <p>製造業移工名額依本國勞工人數比例計算，不同規模工廠名額不同。陳柏宏可協助您計算可申請名額。詳細說明請參考<a href="Article4.html" style="color:var(--green-mid);font-weight:600;">製造業移工名額申請說明</a>。</p>
+
+  <h2>五、引進移工的完整流程</h2>
+  <ul>
+    <li><strong>第一步</strong>：免費諮詢，確認申請資格</li>
+    <li><strong>第二步</strong>：準備文件，向勞動部申請招募許可</li>
+    <li><strong>第三步</strong>：選工面試，挑選合適移工</li>
+    <li><strong>第四步</strong>：辦理入境，機場接送</li>
+    <li><strong>第五步</strong>：健康檢查，簽訂勞動契約</li>
+    <li><strong>第六步</strong>：到職後持續服務，溝通協調</li>
+  </ul>
+
+  <h2>六、如何聯繫陳柏宏？</h2>
+  <p>歡迎透過以下方式聯繫陳柏宏，提供免費初步諮詢：</p>
+  <ul>
+    <li>📞 電話：<a href="tel:0981399215" style="color:var(--green-mid);font-weight:600;">0981-399-215</a></li>
+    <li>💬 LINE：<a href="https://page.line.me/802rcpwh" target="_blank" style="color:var(--green-mid);font-weight:600;">點此加入LINE諮詢</a></li>
+    <li>📧 Email：<a href="mailto:w46994699@gmail.com" style="color:var(--green-mid);font-weight:600;">w46994699@gmail.com</a></li>
+    <li>📍 服務區域：桃園市及周邊縣市（提供到府諮詢）</li>
+  </ul>
+
+  <div class="cta-section">
+    <h3>立即諮詢桃園外勞仲介陳柏宏</h3>
+    <p>免費評估申請資格・透明報價・在地10年專業服務</p>
+    <div class="cta-btns">
+      <a href="index.html" class="btn-home" style="border-color:#fff;color:#fff;">🏠 前往官方網站</a>
+      <a href="tel:0981399215" class="btn-gold">📞 0981-399-215</a>
+      <a href="https://page.line.me/802rcpwh" class="btn-line" target="_blank">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="white"><path d="M24 10.304C24 4.613 18.627 0 12 0S0 4.613 0 10.304c0 5.099 4.523 9.368 10.632 10.177.414.089.978.273 1.12.627.129.323.084.828.041 1.154l-.181 1.086c-.055.323-.256 1.263 1.107.688 1.362-.574 7.346-4.326 10.02-7.409C23.07 14.618 24 12.57 24 10.304z"/></svg>
+        LINE 立即諮詢
+      </a>
+    </div>
+  </div>
+</div>
+
+<footer>© 2026 陳柏宏移工仲介服務 版權所有 ｜ 桃園外勞仲介・農業外勞・看護工・製造業廠工</footer>
+
+<a href="https://page.line.me/802rcpwh" class="float-line" target="_blank">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M24 10.304C24 4.613 18.627 0 12 0S0 4.613 0 10.304c0 5.099 4.523 9.368 10.632 10.177.414.089.978.273 1.12.627.129.323.084.828.041 1.154l-.181 1.086c-.055.323-.256 1.263 1.107.688 1.362-.574 7.346-4.326 10.02-7.409C23.07 14.618 24 12.57 24 10.304z"/></svg>
+  <span class="float-line-label">LINE</span>
+</a>
+
+</body>
+</html>
