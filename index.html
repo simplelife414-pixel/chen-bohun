@@ -42,13 +42,34 @@
     align-items: center;
   }
 
+  /* ── HERO LAYOUT ── */
+  .hero-layout {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    gap: 2rem;
+  }
+  .hero-visual {
+    flex-shrink: 0;
+    width: 420px;
+    opacity: 0.9;
+    animation: float 6s ease-in-out infinite;
+  }
+  .hero-svg { width: 100%; height: auto; }
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-12px); }
+  }
+
   /* ── NAVBAR ── */
   nav {
     position: fixed; top: 0; left: 0; right: 0; z-index: 100;
     background: rgba(26, 74, 46, 0.97);
     backdrop-filter: blur(8px);
     display: flex; align-items: center; justify-content: space-between;
-    padding: 0 6vw;
+    padding: 0 3vw;
     height: 64px;
     box-shadow: 0 2px 20px rgba(0,0,0,0.25);
   }
@@ -60,21 +81,21 @@
     white-space: nowrap;
   }
   .nav-logo span { color: #fff; font-weight: 400; }
-  .nav-links { display: flex; gap: 2rem; list-style: none; }
+  .nav-links { display: flex; gap: 1.2rem; list-style: none; }
   .nav-links a {
     color: rgba(255,255,255,0.85);
-    text-decoration: none; font-size: 0.875rem; letter-spacing: 0.03em;
-    transition: color 0.2s;
+    text-decoration: none; font-size: 0.8rem; letter-spacing: 0.01em;
+    transition: color 0.2s; white-space: nowrap;
   }
   .nav-links a:hover { color: var(--gold-light); }
   .nav-line-btn {
     background: var(--line-green);
     color: #fff; border: none; border-radius: 24px;
-    padding: 8px 18px; font-size: 0.82rem; font-weight: 700;
-    cursor: pointer; display: flex; align-items: center; gap: 7px;
+    padding: 7px 14px; font-size: 0.78rem; font-weight: 700;
+    cursor: pointer; display: flex; align-items: center; gap: 6px;
     text-decoration: none;
     transition: opacity 0.2s, transform 0.15s;
-    white-space: nowrap;
+    white-space: nowrap; flex-shrink: 0;
   }
   .nav-line-btn:hover { opacity: 0.9; transform: scale(1.03); }
 
@@ -415,6 +436,8 @@
     .process-steps::before { display: none; }
 
     .hero { padding: 90px 5vw 50px; }
+    .hero-layout { flex-direction: column; }
+    .hero-visual { display: none; }
     .hero h1 { font-size: 1.8rem; }
     .hero-sub { font-size: 0.9rem; }
     .hero-btns { flex-direction: column; gap: 0.8rem; }
@@ -458,6 +481,7 @@
 
 <!-- HERO -->
 <section class="hero" id="home">
+  <div class="hero-layout">
   <div class="hero-content">
     <div class="hero-badge">
       ✦ 合法立案・專業仲介・親切服務
@@ -476,6 +500,66 @@
       <div class="stat-item"><span class="stat-num">12年</span><span class="stat-label">仲介服務經驗</span></div>
       <div class="stat-item"><span class="stat-num">98%</span><span class="stat-label">客戶滿意度</span></div>
     </div>
+  </div>
+
+  <!-- HERO 裝飾圖形 -->
+  <div class="hero-visual">
+    <svg viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg" class="hero-svg">
+      <!-- 大圓背景 -->
+      <circle cx="240" cy="240" r="200" fill="none" stroke="rgba(74,173,111,0.15)" stroke-width="1.5"/>
+      <circle cx="240" cy="240" r="160" fill="none" stroke="rgba(74,173,111,0.1)" stroke-width="1"/>
+      <circle cx="240" cy="240" r="120" fill="rgba(45,122,79,0.08)" stroke="rgba(74,173,111,0.2)" stroke-width="1.5"/>
+
+      <!-- 中心圓 -->
+      <circle cx="240" cy="240" r="72" fill="rgba(45,122,79,0.18)" stroke="rgba(126,201,154,0.4)" stroke-width="2"/>
+
+      <!-- 中心圖示：人與稻穗組合 -->
+      <!-- 人物 -->
+      <circle cx="240" cy="210" r="18" fill="rgba(126,201,154,0.7)"/>
+      <path d="M210 260 Q210 240 240 238 Q270 240 270 260 L270 275 Q255 282 240 282 Q225 282 210 275 Z" fill="rgba(126,201,154,0.7)"/>
+
+      <!-- 稻穗左 -->
+      <line x1="200" y1="255" x2="185" y2="195" stroke="rgba(201,165,58,0.6)" stroke-width="2"/>
+      <ellipse cx="185" cy="192" rx="5" ry="9" fill="rgba(201,165,58,0.5)" transform="rotate(-15,185,192)"/>
+      <ellipse cx="179" cy="205" rx="4" ry="7" fill="rgba(201,165,58,0.4)" transform="rotate(-25,179,205)"/>
+      <ellipse cx="175" cy="218" rx="4" ry="7" fill="rgba(201,165,58,0.4)" transform="rotate(-20,175,218)"/>
+
+      <!-- 稻穗右 -->
+      <line x1="280" y1="255" x2="295" y2="195" stroke="rgba(201,165,58,0.6)" stroke-width="2"/>
+      <ellipse cx="295" cy="192" rx="5" ry="9" fill="rgba(201,165,58,0.5)" transform="rotate(15,295,192)"/>
+      <ellipse cx="301" cy="205" rx="4" ry="7" fill="rgba(201,165,58,0.4)" transform="rotate(25,301,205)"/>
+      <ellipse cx="305" cy="218" rx="4" ry="7" fill="rgba(201,165,58,0.4)" transform="rotate(20,305,218)"/>
+
+      <!-- 外圍三個服務圓圈 -->
+      <!-- 農業 -->
+      <circle cx="240" cy="68" r="38" fill="rgba(26,74,46,0.5)" stroke="rgba(74,173,111,0.4)" stroke-width="1.5"/>
+      <text x="240" y="62" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="20">🌾</text>
+      <text x="240" y="78" text-anchor="middle" fill="rgba(255,255,255,0.65)" font-size="9" font-family="Noto Sans TC,sans-serif">農業外勞</text>
+
+      <!-- 看護 -->
+      <circle cx="390" cy="318" r="38" fill="rgba(26,74,46,0.5)" stroke="rgba(74,173,111,0.4)" stroke-width="1.5"/>
+      <text x="390" y="312" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="20">🏥</text>
+      <text x="390" y="328" text-anchor="middle" fill="rgba(255,255,255,0.65)" font-size="9" font-family="Noto Sans TC,sans-serif">看護工</text>
+
+      <!-- 廠工 -->
+      <circle cx="90" cy="318" r="38" fill="rgba(26,74,46,0.5)" stroke="rgba(74,173,111,0.4)" stroke-width="1.5"/>
+      <text x="90" y="312" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="20">🏭</text>
+      <text x="90" y="328" text-anchor="middle" fill="rgba(255,255,255,0.65)" font-size="9" font-family="Noto Sans TC,sans-serif">製造業廠工</text>
+
+      <!-- 連接線 -->
+      <line x1="240" y1="106" x2="240" y2="168" stroke="rgba(74,173,111,0.25)" stroke-width="1.5" stroke-dasharray="4,3"/>
+      <line x1="356" y1="300" x2="306" y2="268" stroke="rgba(74,173,111,0.25)" stroke-width="1.5" stroke-dasharray="4,3"/>
+      <line x1="124" y1="300" x2="174" y2="268" stroke="rgba(74,173,111,0.25)" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+      <!-- 裝飾小點 -->
+      <circle cx="310" cy="100" r="3" fill="rgba(201,165,58,0.5)"/>
+      <circle cx="340" cy="130" r="2" fill="rgba(74,173,111,0.4)"/>
+      <circle cx="155" cy="110" r="3" fill="rgba(201,165,58,0.4)"/>
+      <circle cx="130" cy="145" r="2" fill="rgba(74,173,111,0.3)"/>
+      <circle cx="380" cy="190" r="2.5" fill="rgba(126,201,154,0.4)"/>
+      <circle cx="100" cy="200" r="2.5" fill="rgba(126,201,154,0.4)"/>
+    </svg>
+  </div>
   </div>
 </section>
 
